@@ -1,0 +1,39 @@
+.feedback {
+  width: 980px;
+  min-height: 1153px;
+  margin: 0 100px 0 100px;
+  padding-top: 100px;
+}
+
+.feedback__title {
+  padding-bottom: 40px;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.feedback__container {
+  width: 980px;
+  height: 319px;
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.feedback__container:last-child {
+    margin-bottom: 0;
+}
+
+.feedback__text {
+  width: 680px;
+  height: 88px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+  position: absolute;
+  top: 52px;
+  bottom: 179px;
+  right: 0;
+}

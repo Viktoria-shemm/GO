@@ -1,0 +1,61 @@
+.footer {
+  width: 100%;
+  min-height: 349px;
+  padding-top: 100px;
+}
+
+.contacts__contact-us {
+  margin-top: 38px;
+}
+
+.contacts__title {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 40px;
+}
+
+.contacts a,
+p {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: left;
+  display: block;
+}
+
+.contacts__text::before {
+  content: url(../Графика/location.svg);
+  float: left;
+  margin-right: 30px;
+  margin-top: 10px;
+}
+
+.contacts__tel::before {
+  content: url(../Графика/bx_bxs-phone-call.svg);
+  float: left;
+  margin-right: 30px;
+}
+
+.contacts__mail {
+  margin-top: 10px;
+}
+
+.contacts__mail::before {
+  content: url(../Графика/envelope.svg);
+  float: left;
+  margin-right: 30px;
+}
+
+.social {
+  height: 49px;
+  white-space: nowrap;
+  margin-top: 40px;
+}
+
+.social__item {
+  display: inline-block;
+  padding-right: 27px;
+}

@@ -1,0 +1,61 @@
+.halls {
+  width: 100%;
+  min-height: 814px;
+  padding-top: 100px;
+}
+
+.halls__title {
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 60px;
+}
+
+.halls__vibes {
+  background-image: url(../Графика/Rectangle29.jpg);
+  background-size: contain;
+}
+
+.halls__star-wars {
+  background-image: url(../Графика/Rectangle29-1.jpg);
+  background-size: contain;
+}
+
+.halls__wild-west {
+  background-image: url(../Графика/Rectangle29-2.jpg);
+  background-size: contain;
+}
+
+.halls__neon-style {
+  background-image: url(../Графика/Rectangle29-3.jpg);
+  background-size: contain;
+}
+
+.halls__item {
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 80px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 580px;
+  height: 349px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.halls__item:nth-child(2n) {
+  margin-right: 0;
+}
+
+.halls__item:nth-last-child(-n+2) {
+  margin-bottom: 0;
+}
+
+.halls__list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
