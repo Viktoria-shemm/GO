@@ -11,12 +11,10 @@
 
   <body class="page">
 
-    <!-- <header class="header">
+    <header class="header">
       <div class="container">
-        <img class="logo" src="img/logo.png" alt="логотип">
-
         <nav class="navigation">
-          <h1 class="navigation__title">Меню</h1>
+          <img class="logo" src="img/logo.svg" alt="логотип">
           <ul class="navigation__list">
             <li class="navigation__item"><a class="navigation__link" href="#halls">Залы</a></li>
             <li class="navigation__item"><a class="navigation__link" href="#about-us">О нас</a></li>
@@ -24,37 +22,32 @@
             <li class="navigation__item"><a class="navigation__link" href="#feedback">Отзывы</a></li>
             <li class="navigation__item"><a class="navigation__link" href="#contacts">Контакты</a></li>
           </ul>
+          <button class="navigation__button">Заказать звонок</button>
         </nav>
       </div>      
-    </header> -->
+    </header>
     <main>
-      <!-- <section class="present">
-        <div class="container">
-          <h2 class="present__title">У нас есть все для классного отдыха с друзьями!</h2>
-          <ul class="present__list">
-            <li class="present__item">
-              <figure class="present__figure">
-                <img class="present__img" src="img/vr.jpg" alt="VR очки" height="228px">
-                <figcaption class="present__figcaption">Vr очки</figcaption>
-              </figure>
-            </li>
-            <li class="present__item">
-              <figure class="present__figure">
-                <img class="present__img" src="img/audio.jpg" alt="Аудио-система" height="228px">
-                <figcaption class="present__figcaption">Аудио-система 5.1 с отличным звуком</figcaption>
-              </figure>
-            </li>
-            <li class="present__item">Караоке (4 микрофона)</li>
-            <li class="present__item">Настольные игры</li>
-            <li class="present__item">Кино сервисы Netflix, IVI, MegoGo, КиноПоиск, Okko</li>
-            <li class="present__item">PlayStation 5</li>
-          </ul>
-        </div>
-      </section> -->
       <section class="content">
         <div class="container">
           <h1 class="content__title">Game Over</h1>
           <p class="content__subtitle">Новый формат игр и отдыха</p>
+          <p class="content__text content__text--left"><span class="content__span">4</span><br>Тематических <br> зала</p>
+          <p class="content__text content__text--right"><span class="content__span">new</span><br>Новейшая <br> аппаратура</p>
+          <button class="content__button">Забронировать</button>
+          <button class="content__button-1"></button>
+        </div>
+      </section>
+      <section class="present">
+        <div class="container">
+          <h2 class="present__title">У нас есть все для классного <br> отдыха с друзьями!</h2>
+          <ul class="present__list">
+            <li class="present__item present__item--vr"></li>
+            <li class="present__item present__item--game"><span class="present__text-1">Настольные игры</span></li>
+            <li class="present__item present__item--audio"><span class="present__text-2">Аудио-система 5.1 с отличным звуком</span></li>
+            <li class="present__item present__item--cinema"><span class="present__text-2">Кино сервисы Netflix, IVI, MegoGo, КиноПоиск, Okko</span></li>
+            <li class="present__item present__item--karaoke"><span class="present__text-1">Караоке (4 микрофона)</span></li>
+            <li class="present__item present__item--play"><span class="present__text-1">PlayStation 5</span></li>
+          </ul>
         </div>
       </section>
       <section  class="halls" id="halls">
@@ -70,17 +63,17 @@
       </section>
       <section class="reservation" id="to-book">
         <div class="container">
-          <h2 class="reservation__title">ЗАБРОНИРОВАТЬ</h2>
+          <h2 class="reservation__title">Забронировать зал просто</h2>
           <form class="reservation__form" action="https://jsonplaceholder.typicode.com/posts" method="post">
             <fieldset class="reservation__fieldset">
-              <fieldset class="reservation__fieldset">
+              <fieldset class="reservation__fieldset--block reservation__fieldset--block-1">
                 <legend class="reservation__legend">Выбери зал</legend>
-                <label class="reservation__label"><input class="reservation__input" type="radio" name="hall" value="80's-vibes">80's vibes</label>
-                <label class="reservation__label"><input class="reservation__input" type="radio" name="hall" value="Star-wars">Star wars</label>
-                <label class="reservation__label"><input class="reservation__input" type="radio" name="hall" value="Wild-west">Wild west</label>
-                <label class="reservation__label"><input class="reservation__input" type="radio" name="hall" value="Neon-style">Neon style</label>
+                <label class="reservation__label"><input class="reservation__input radio__button" type="radio" name="hall" value="80's-vibes"><span class="radio__button--custom">80's vibes</span></label>
+                <label class="reservation__label"><input class="reservation__input radio__button" type="radio" name="hall" value="Star-wars"><span class="radio__button--custom">Star wars</span></label>
+                <label class="reservation__label"><input class="reservation__input radio__button" type="radio" name="hall" value="Wild-west"><span class="radio__button--custom">Wild west</span></label>
+                <label class="reservation__label"><input class="reservation__input radio__button" type="radio" name="hall" value="Neon-style"><span class="radio__button--custom">Neon style</span></label>
               </fieldset>
-              <fieldset class="reservation__fieldset">
+              <fieldset class="reservation__fieldset--block reservation__fieldset--block-2">
                 <legend class="reservation__legend">Собери набор развлечений</legend>
                 <fieldset class="reservation__fieldset">
                   <legend class="reservation__legend">Приставка</legend>
@@ -102,19 +95,26 @@
                   <label class="reservation__label"><input class="reservation__input" type="checkbox" name="add" value="VR" />VR</label>
                 </fieldset>
               </fieldset>
-              <fieldset  class="reservation__fieldset">
-                <legend class="reservation__legend">Выбери дату и время</legend>
-                <label class="reservation__label">Дата<input class="reservation__input" type="date" name="date" required /></label>
-                <label class="reservation__label">Время<input class="reservation__input" type="time" name="time" required /></label>
-                <label class="reservation__label">Количество человек<input class="reservation__input" type="number" name="number-of-people" required></label>
-                <label class="reservation__label">Имя<input class="reservation__input" type="text" name="name" required /></label>
-                <label class="reservation__label">Фамилия<input class="reservation__input" type="text" name="surname" required></label>
-                <label class="reservation__label">Номер телефона<input class="reservation__input" type="tel" name="tel" required></label>
-                <label class="reservation__label"><input class="reservation__input" type="checkbox" name="proof-of-age" value="I-am-over-18-years-old" required>Я старше 18 лет</label>
-              </fieldset>
+              <fieldset class="reservation__fieldset--block reservation__fieldset--block-3"> 
+                <legend class="reservation__legend">Выбери дату и время</legend> 
+                <div class="reservation__container"> 
+                    <div class="block-1"> 
+                        <label class="reservation__label"><input class="reservation__input reservation__input--small" type="text" onfocus="this.type='date'" onblur="if(this.value === '') { this.type='text'; }" name="date" placeholder="Дата" required /></label> 
+                        <label class="reservation__label"><input class="reservation__input reservation__input--small" type="text" onfocus="this.type='time'" onblur="if(this.value === '') { this.type='text'; }" name="time" placeholder="Время" required /></label> 
+                        <label class="reservation__label"><input class="reservation__input reservation__input--big" type="text" onfocus="this.type='number'" onblur="if(this.value === '') { this.type='text'; }" name="number-of-people" placeholder="Сколько человек" required></label> 
+                    </div> 
+                    <div class="block-2"> 
+                        <label class="reservation__label">Имя<input class="reservation__input reservation__input--big" type="text" name="name" required /></label> 
+                        <label class="reservation__label">Фамилия<input class="reservation__input reservation__input--big" type="text" name="surname" required></label> 
+                        <label class="reservation__label">Телефон<input class="reservation__input reservation__input--big" type="tel" name="tel" required></label> 
+                        <label class="reservation__label">E-mail<input class="reservation__input reservation__input--big" type="email" name="email" required></label> 
+                    </div> 
+                </div>
+                <!-- <label class="reservation__label"><input class="reservation__input" type="checkbox" name="proof-of-age" value="I-am-over-18-years-old" required>Я старше 18 лет</label> --> 
+            </fieldset>           
             </fieldset>
             <button class="reservation__button" type="submit">Забронировать</button>
-            <label class="reservation__label"><input class="reservation__input" type="checkbox" name="personal data" value="I-agree-to-data-processing" required>Согласен на обработку данных</label>
+            <!-- <label class="reservation__label"><input class="reservation__input" type="checkbox" name="personal data" value="I-agree-to-data-processing" required>Согласен на обработку данных</label> -->
           </form>
         </div>
       </section>
