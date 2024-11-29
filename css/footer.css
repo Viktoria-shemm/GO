@@ -1,7 +1,14 @@
 .footer {
   width: 100%;
-  min-height: 349px;
+  min-height: 629px;
   padding-top: 100px;
+  position: relative;
+  background: linear-gradient(180deg, rgb(27, 26, 27), rgb(55, 10, 55) 100%);
+}
+
+.footer .container {
+  width: 1180px;
+  margin: 0 auto;
 }
 
 .contacts__contact-us {
@@ -58,4 +65,35 @@ p {
 .social__item {
   display: inline-block;
   padding-right: 27px;
+}
+
+.map__img {
+  position: absolute;
+  right: 360px;
+  bottom: 180px;
+}
+
+.footer__text {
+font-size: 14px;
+font-weight: 400;
+line-height: 16px;
+text-align: left;
+}
+
+.footer__text-1 {
+  position: absolute;
+  left: 360px;
+  bottom: 32px;
+}
+
+.footer__text-2 {
+  position: absolute;
+  right: 360px;
+  bottom: 32px;
+}
+
+.footer__text-3 {
+  position: absolute;
+  right: 360px;
+  bottom: 10px;
 }

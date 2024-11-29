@@ -1,5 +1,6 @@
 .content {
-  width: 100%;
+  width: 1180px;
+  margin: 0 auto;
   min-height: 975px;
   padding-top: 50px;
   position: relative;

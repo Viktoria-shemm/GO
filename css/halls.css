@@ -1,8 +1,9 @@
 .halls {
-  width: 100%;
+  width: 1180px;
   min-height: 814px;
   padding-top: 100px;
   padding-bottom: 100px;
+  margin: 0 auto;
 }
 
 .halls__title {

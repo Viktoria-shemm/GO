@@ -80,35 +80,43 @@
                   <label class="reservation__label"><input class="reservation__input" type="radio" name="console" value="PlayStation">PlayStation</label>
                   <label class="reservation__label"><input class="reservation__input" type="radio" name="console" value="Sega-Mega-Drive">Sega Mega Drive</label>
                   <label class="reservation__label"><input class="reservation__input" type="radio" name="console" value="X-box-One-S">X-box One S</label>
-                  <label class="reservation__label"><input class="reservation__input" type="radio" name="console" value="Dendy">Dendy</label>
+                  <label class="reservation__label"><input class="reservation__input reservation__input--lc" type="radio" name="console" value="Dendy">Dendy</label>
                 </fieldset>
                 <fieldset class="reservation__fieldset">
                   <legend class="reservation__legend">Настольные игры</legend>
                   <label class="reservation__label"><input class="reservation__input" type="checkbox" name="game" value="Jenga">Jenga</label>
                   <label class="reservation__label"><input class="reservation__input" type="checkbox" name="game" value="Monopoly">Monopoly</label>
                   <label class="reservation__label"><input class="reservation__input" type="checkbox" name="game" value="Munchkin">Манчкин</label>
-                  <label class="reservation__label"><input class="reservation__input" type="checkbox" name="game" value="Alias">Alias</label>
+                  <label class="reservation__label"><input class="reservation__input reservation__input--lc" type="checkbox" name="game" value="Alias">Alias</label>
                 </fieldset>
                 <fieldset class="reservation__fieldset">
                   <legend class="reservation__legend">Дополнительно</legend>
                   <label class="reservation__label"><input class="reservation__input" type="checkbox" name="add" value="Karaoke">Караоке</label>
-                  <label class="reservation__label"><input class="reservation__input" type="checkbox" name="add" value="VR" />VR</label>
+                  <label class="reservation__label"><input class="reservation__input reservation__input--lc" type="checkbox" name="add" value="VR" />VR</label>
                 </fieldset>
               </fieldset>
               <fieldset class="reservation__fieldset--block reservation__fieldset--block-3"> 
                 <legend class="reservation__legend">Выбери дату и время</legend> 
-                <div class="reservation__container"> 
-                    <div class="block-1"> 
-                        <label class="reservation__label"><input class="reservation__input reservation__input--small" type="text" onfocus="this.type='date'" onblur="if(this.value === '') { this.type='text'; }" name="date" placeholder="Дата" required /></label> 
-                        <label class="reservation__label"><input class="reservation__input reservation__input--small" type="text" onfocus="this.type='time'" onblur="if(this.value === '') { this.type='text'; }" name="time" placeholder="Время" required /></label> 
-                        <label class="reservation__label"><input class="reservation__input reservation__input--big" type="text" onfocus="this.type='number'" onblur="if(this.value === '') { this.type='text'; }" name="number-of-people" placeholder="Сколько человек" required></label> 
-                    </div> 
-                    <div class="block-2"> 
-                        <label class="reservation__label">Имя<input class="reservation__input reservation__input--big" type="text" name="name" required /></label> 
-                        <label class="reservation__label">Фамилия<input class="reservation__input reservation__input--big" type="text" name="surname" required></label> 
-                        <label class="reservation__label">Телефон<input class="reservation__input reservation__input--big" type="tel" name="tel" required></label> 
-                        <label class="reservation__label">E-mail<input class="reservation__input reservation__input--big" type="email" name="email" required></label> 
-                    </div> 
+                <div class="reservation__container">
+                      <label class="reservation__label"><input class="reservation__input reservation__input--small" type="text" onfocus="this.type='date'" onblur="if(this.value === '') { this.type='text'; }" name="date" placeholder="Дата" required /></label> 
+                      <label class="reservation__label"><input class="reservation__input reservation__input--small" type="text" onfocus="this.type='time'" onblur="if(this.value === '') { this.type='text'; }" name="time" placeholder="Время" required /></label> 
+                      <label class="reservation__label">
+                        Имя
+                        <input class="reservation__input reservation__input--big" type="text" name="name" required />
+                      </label> 
+                      <label class="reservation__label">
+                        Телефон
+                        <input class="reservation__input reservation__input--big" type="tel" name="tel" required>
+                      </label> 
+                      <label class="reservation__label"><input class="reservation__input reservation__input--big" type="text" onfocus="this.type='number'" onblur="if(this.value === '') { this.type='text'; }" name="number-of-people" placeholder="Сколько человек" required></label> 
+                      <label class="reservation__label">
+                        Фамилия
+                        <input class="reservation__input reservation__input--big" type="text" name="surname" required>
+                      </label> 
+                      <label class="reservation__label">
+                        E-mail
+                        <input class="reservation__input reservation__input--big" type="email" name="email" required>
+                      </label> 
                 </div>
                 <!-- <label class="reservation__label"><input class="reservation__input" type="checkbox" name="proof-of-age" value="I-am-over-18-years-old" required>Я старше 18 лет</label> --> 
             </fieldset>           
@@ -241,7 +249,13 @@
               </li>
             </ul>
           </div>
+          <div class="map">
+            <img class="map__img" src="img/map.jpg" alt="карта">
+          </div>
       </div>
+      <span class="footer__text-1 footer__text">© Game Over, 2022</span>
+      <span class="footer__text-2 footer__text">Design by Anastasia Ilina</span>
+      <span class="footer__text-3 footer__text">ilina9825@gmail.com</span>
     </footer>
   </body>
 </html>

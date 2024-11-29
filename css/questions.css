@@ -1,5 +1,6 @@
 .questions {
-  width: 100%;
+  width: 1180px;
+  margin: 0 auto;
   min-height: 611px;
   padding-top: 100px;
 }

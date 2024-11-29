@@ -3,6 +3,7 @@
   height: 66px;
   display: flex;
   justify-content: space-between;
+  margin: 0 auto;
 }
 
 .navigation__list {

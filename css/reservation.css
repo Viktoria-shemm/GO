@@ -1,8 +1,14 @@
 .reservation {
   width: 100%;
-  min-height: 1300px;
+  min-height: 1200px;
   padding: 80px 0;
-  background-color: #440F51;
+  background-color: #440f51;
+  position: relative;
+}
+
+.reservation .container {
+  width: 1180px;
+  margin: 0 auto;
 }
 
 .reservation__title {
@@ -83,6 +89,10 @@ fieldset {
   margin-bottom: 20px;
 }
 
+.reservation__fieldset--block-2 .reservation__input--lc {
+  margin-bottom: 0;
+}
+
 .reservation__input--big {
   width: 300px;
   height: 52px;
@@ -93,16 +103,24 @@ fieldset {
   height: 52px;
 }
 
-.block-1 {
-
+.reservation__container {
   display: flex;
   flex-flow: row wrap;
-  gap: 40px;
+  gap: 36px 50px;
 }
 
-.block-2 {
-  display: flex;
-  flex-flow: row wrap;
-  gap: 32px 36px;
+.reservation__button {
+  width: 300px;
+  height: 60px;
+  background-color: #ffffff;
+  color: #6c0287;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+  border-radius: 10px;
+  position: absolute;
+  right: 390px;
+  bottom: 80px;
 }
-
