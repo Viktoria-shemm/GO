@@ -51,7 +51,19 @@
   bottom: 154px;
 }
 
-.content__button-1 {
+.content__button:hover {
+  background-color: #840aa3;
+}
+
+.content__button:focus {
+  background-color: #840aa3;
+}
+
+.content__button:active {
+  background-color: #640aa3;
+}
+
+/* .content__button-1 {
   background-image: url(../Графика/down.png);
   width: 97px;
   height: 97px;
@@ -59,7 +71,36 @@
   left: 539px;
   bottom: 90px;
   z-index: 2;
+} */
+
+.content__button-1 {
+
+  border-color: #ffffff;
+  width: 97px;
+  height: 97px;
+  border-radius: 50%;
+  position: absolute;
+  left: 539px;
+  bottom: 90px;
+  z-index: 2; 
 }
+
+/* .content__button-1:hover {
+  background-color: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  border-radius: 48px;
+}
+
+.content__button-1:focus {
+  border: 1px solid #CD06FF;
+  background-color: rgba(196, 196, 196, 0);
+}
+
+.content__button-1:active {
+  background-color: #CD06FF;
+  border: 1px solid #CD06FF;
+  border-radius: 48px;
+} */
 
 .content__text {
   font-size: 30px;
@@ -77,13 +118,13 @@
 }
 
 .content__text--left {
- position: absolute;
- left: 0;
- bottom: 384px;
+  position: absolute;
+  left: 0;
+  bottom: 384px;
 }
 
 .content__text--right {
- position: absolute;
- left: 236px;
- bottom: 384px;
+  position: absolute;
+  left: 236px;
+  bottom: 384px;
 }

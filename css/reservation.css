@@ -24,15 +24,15 @@ fieldset {
   border: 0;
 }
 
-.reservation__fieldset--block {
+.reservation__block {
   margin-bottom: 60px;
 }
 
-.radio__button {
+.reservation__radio {
   display: none;
 }
 
-.radio__button--custom {
+.reservation__span {
   display: inline-flex;
   justify-content: center;
   align-items: center;
@@ -48,13 +48,25 @@ fieldset {
   text-transform: uppercase;
 }
 
-.reservation__fieldset--block-1 {
+.reservation__block-1 {
   display: flex;
   justify-content: space-between;
 }
 
-.reservation__label input[type="radio"]:checked + .radio__button--custom {
+.reservation__label input[type="radio"]:checked + .reservation__span {
+  border: 3px solid #6c0287;
   background-color: #6c0287;
+  color: #ffffff;
+}
+
+.reservation__span:hover {
+  border: 3px solid #640aa3;
+  background-color: #eadeed;
+}
+
+.reservation__span:focus {
+  border: 3px solid #640aa3;
+  background-color: #ffffff;
 }
 
 .reservation__legend {
@@ -66,7 +78,7 @@ fieldset {
   margin-bottom: 40px;
 }
 
-.reservation__fieldset--block-2 {
+.reservation__block-2 {
   display: flex;
   justify-content: space-around;
   width: 100%;
@@ -74,7 +86,7 @@ fieldset {
   gap: 100px;
 }
 
-.reservation__fieldset--block-2 .reservation__label {
+.reservation__block-2 .reservation__label {
   display: block;
   font-size: 22px;
   font-weight: 400;
@@ -82,14 +94,14 @@ fieldset {
   text-align: left;
 }
 
-.reservation__fieldset--block-2 .reservation__input {
+.reservation__block-2 .reservation__input {
   width: 27px;
   height: 27px;
   margin-right: 12px;
   margin-bottom: 20px;
 }
 
-.reservation__fieldset--block-2 .reservation__input--lc {
+.reservation__block-2 .reservation__input--lc {
   margin-bottom: 0;
 }
 
@@ -104,9 +116,36 @@ fieldset {
 }
 
 .reservation__container {
-  display: flex;
+  position: relative;
+  height: 200px;
+}
+
+.block-1 {
+  display: inline-flex;
   flex-flow: row wrap;
-  gap: 36px 50px;
+  height: 140px;
+  width: 300px;
+  gap: 36px 32px;
+  position: absolute;
+  left: 50px;
+}
+
+.block-2 {
+  display: inline-flex;
+  flex-flow: column wrap;
+  gap: 18px 0;
+  position: absolute;
+  bottom: 60px;
+  left: 420px;
+}
+
+.block-3 {
+  display: inline-flex;
+  flex-flow: column wrap;
+  gap: 18px 0;
+  position: absolute;
+  bottom: 60px;
+  right: 50px;
 }
 
 .reservation__button {
@@ -121,6 +160,27 @@ fieldset {
   text-transform: uppercase;
   border-radius: 10px;
   position: absolute;
-  right: 390px;
+  right: 430px;
   bottom: 80px;
+}
+
+.reservation__button:hover {
+  border: 3px solid #6c0287;
+  background-color: #eadeed;
+}
+
+.reservation__button:focus {
+  border: 3px solid #6c0287;
+  background-color: #ffffff;
+}
+
+.reservation__button:active {
+  background-color: #eadeed;
+}
+
+.reservation__input--small:focus,
+.reservation__input--big:focus {
+  border: 2px solid #cd06ff;
+  background: #ffffff;
+  outline: none;
 }
