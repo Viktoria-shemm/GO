@@ -76,22 +76,22 @@
                 <legend class="reservation__legend">Собери набор развлечений</legend>
                 <fieldset class="reservation__fieldset">
                   <legend class="reservation__legend">Приставка</legend>
-                  <label class="reservation__label"><input class="reservation__input" type="radio" name="console" value="PlayStation">PlayStation</label>
-                  <label class="reservation__label"><input class="reservation__input" type="radio" name="console" value="Sega-Mega-Drive">Sega Mega Drive</label>
-                  <label class="reservation__label"><input class="reservation__input" type="radio" name="console" value="X-box-One-S">X-box One S</label>
-                  <label class="reservation__label"><input class="reservation__input reservation__input--lc" type="radio" name="console" value="Dendy">Dendy</label>
+                  <label class="reservation__label"><input class="reservation__input reservation__input--focus" type="radio" name="console" value="PlayStation">PlayStation 5</label>
+                  <label class="reservation__label"><input class="reservation__input reservation__input--focus" type="radio" name="console" value="Sega-Mega-Drive">Sega Mega Drive</label>
+                  <label class="reservation__label"><input class="reservation__input reservation__input--focus" type="radio" name="console" value="X-box-One-S">X-box One S</label>
+                  <label class="reservation__label"><input class="reservation__input reservation__input--focus reservation__input--lc" type="radio" name="console" value="Dendy">Dendy</label>
                 </fieldset>
                 <fieldset class="reservation__fieldset">
                   <legend class="reservation__legend">Настольные игры</legend>
-                  <label class="reservation__label"><input class="reservation__input" type="checkbox" name="game" value="Jenga">Jenga</label>
-                  <label class="reservation__label"><input class="reservation__input" type="checkbox" name="game" value="Monopoly">Monopoly</label>
-                  <label class="reservation__label"><input class="reservation__input" type="checkbox" name="game" value="Munchkin">Манчкин</label>
-                  <label class="reservation__label"><input class="reservation__input reservation__input--lc" type="checkbox" name="game" value="Alias">Alias</label>
+                  <label class="reservation__label"><input class="reservation__input reservation__input--focus" type="checkbox" name="game" value="Jenga">Jenga</label>
+                  <label class="reservation__label"><input class="reservation__input reservation__input--focus" type="checkbox" name="game" value="Monopoly">Monopoly</label>
+                  <label class="reservation__label"><input class="reservation__input reservation__input--focus" type="checkbox" name="game" value="Munchkin">Манчкин</label>
+                  <label class="reservation__label"><input class="reservation__input reservation__input--focus reservation__input--lc" type="checkbox" name="game" value="Alias">Alias</label>
                 </fieldset>
                 <fieldset class="reservation__fieldset">
                   <legend class="reservation__legend">Дополнительно</legend>
-                  <label class="reservation__label"><input class="reservation__input" type="checkbox" name="add" value="Karaoke">Караоке</label>
-                  <label class="reservation__label"><input class="reservation__input reservation__input--lc" type="checkbox" name="add" value="VR">VR</label>
+                  <label class="reservation__label"><input class="reservation__input reservation__input--focus" type="checkbox" name="add" value="Karaoke">Караоке</label>
+                  <label class="reservation__label"><input class="reservation__input reservation__input--focus reservation__input--lc" type="checkbox" name="add" value="VR">VR</label>
                 </fieldset>
               </fieldset>
               <fieldset class="reservation__block reservation__block-3"> 
@@ -195,18 +195,23 @@
           <ul class="questions__list">
             <li class="questions__item questions__item_white">
               Можно ли забронировать комнату онлайн?
+              <span class="questions__span questions__span--purple"></span>
             </li>
             <li class="questions__item questions__item_purple">
               Могут ли мне вернуть деньги за бронь?
+              <span class="questions__span questions__span--white"></span>
             </li>
             <li class="questions__item questions__item_white">
               Какая комната самая популярная?
+              <span class="questions__span questions__span--purple"></span>
             </li>
             <li class="questions__item questions__item_purple">
               Как получить VIP карту?
+              <span class="questions__span questions__span--white"></span>
             </li>
             <li class="questions__item questions__item_white">
               Какая комната самая популярная?
+              <span class="questions__span questions__span--purple"></span>
             </li>
           </ul>
         </div>
@@ -231,27 +236,43 @@
             <ul class="social__list">
               <li class="social__item">
                 <a  class="social__link" href="https://vk.com/" target="_blank"
-                  ><img  class="social__img" 
-                  src="./Графика/entypo-social_vk-with-circle.svg" 
-                  alt="vk"></a>
+                  >
+                  <div class="social__img-container">                    
+                    <img  class="social__img" 
+                    src="./Графика/entypo-social_vk-with-circle.png" 
+                    alt="vk">
+                  </div>
+                </a>
               </li>
               <li class="social__item">
                 <a  class="social__link" href="https://web.telegram.org" target="_blank"
-                  ><img  class="social__img"
-                   src="./Графика/Group.svg"
-                   alt="telegram"></a>
+                  >
+                  <div class="social__img-container">                    
+                    <img  class="social__img"
+                     src="./Графика/Group.png"
+                     alt="telegram">
+                  </div>
+                </a> 
               </li>
               <li class="social__item">
                 <a  class="social__link" href="https://ru.pinterest.com" target="_blank"
-                  ><img  class="social__img" 
-                  src="./Графика/Vector.svg" 
-                  alt="pinterest"></a>
+                  >
+                  <div class="social__img-container">                    
+                    <img  class="social__img" 
+                    src="./Графика/Vector.png" 
+                    alt="pinterest">
+                  </div>
+                </a>
               </li>
               <li class="social__item">
                 <a  class="social__link" href="https://stumbleupon.com/" target="_blank"
-                  ><img  class="social__img"
-                    src="./Графика/foundation_social-stumbleupon.svg"
-                    alt="stumbleupon"></a>
+                  >
+                  <div class="social__img-container">
+                    <img  class="social__img"
+                      src="./Графика/foundation_social-stumbleupon.png"
+                      alt="stumbleupon">
+                  </div>
+                </a> 
               </li>
             </ul>
           </div>

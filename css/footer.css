@@ -67,6 +67,27 @@ p {
   padding-right: 27px;
 }
 
+.social__img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.social__img-container:hover {
+  background-color: #eadeed;
+  border-radius: 25px;
+}
+
+.social__img-container:active {
+  background-color: #cd06ff;
+  border-radius: 25px;
+}
+
+.social__img-container:focus {
+  outline: 1px solid #cd06ff;
+  background-color: #eadeed;
+}
+
 .map__img {
   position: absolute;
   right: 360px;
@@ -74,10 +95,10 @@ p {
 }
 
 .footer__text {
-font-size: 14px;
-font-weight: 400;
-line-height: 16px;
-text-align: left;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: left;
 }
 
 .footer__text-1 {

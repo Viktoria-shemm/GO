@@ -105,6 +105,10 @@ fieldset {
   margin-bottom: 0;
 }
 
+.reservation__input--focus:focus {
+  outline: 1px solid #CD06FF;
+}
+
 .reservation__input--big {
   width: 300px;
   height: 52px;
