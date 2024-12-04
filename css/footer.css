@@ -69,16 +69,18 @@ p {
 
 .social__img {
   display: block;
+  border-radius: 25px;
   width: 100%;
   height: auto;
+  transition: background-color 2s;
 }
 
-.social__img-container:hover {
+.social__img:hover {
   background-color: #eadeed;
   border-radius: 25px;
 }
 
-.social__img-container:active {
+.social__img:active {
   background-color: #cd06ff;
   border-radius: 25px;
 }

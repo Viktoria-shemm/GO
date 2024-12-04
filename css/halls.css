@@ -49,6 +49,11 @@
   justify-content: center;
 }
 
+.halls__item:hover {
+  transform: scale(1.05);
+  transition-duration: 2s;
+}
+
 .halls__item:nth-child(2n) {
   margin-right: 0;
 }

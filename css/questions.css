@@ -37,6 +37,7 @@
   position: absolute;
   right: 50px;
   bottom: 20px;
+  transition: 2s;
 }
 
 .questions__span--purple:hover {
@@ -54,6 +55,7 @@
   position: absolute;
   right: 50px;
   bottom: 20px;
+  transition: 2s;
 }
 
 .questions__span--white:hover {

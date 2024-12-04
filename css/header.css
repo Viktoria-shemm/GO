@@ -29,6 +29,7 @@
   font-weight: 700;
   line-height: 30px;
   text-transform: uppercase;
+  transition: background-color 2s;
 }
 
 .header__button:hover {

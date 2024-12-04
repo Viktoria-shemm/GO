@@ -28,6 +28,11 @@
   position: relative;
 }
 
+.present__item:hover {
+  transform: scale(1.1);
+  transition-duration: 2s;
+}
+
 .present__text-1 {
   font-size: 20px;
   font-weight: 700;
