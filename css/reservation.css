@@ -2,7 +2,7 @@
   width: 100%;
   min-height: 1200px;
   padding: 80px 0;
-  background-color: #440f51;
+  background-color: var(--main-two-color);
   position: relative;
 }
 
@@ -39,7 +39,7 @@ fieldset {
   width: 250px;
   height: 55px;
   border-radius: 8px;
-  background-color: #ffffff;
+  background-color: var(--main-four-color);
   cursor: pointer;
   user-select: none;
   color: #111;
@@ -55,9 +55,9 @@ fieldset {
 }
 
 .reservation__label input[type="radio"]:checked + .reservation__span {
-  border: 3px solid #6c0287;
-  background-color: #6c0287;
-  color: #ffffff;
+  border: 3px solid var(--main-one-color);
+  background-color: var(--main-one-color);
+  color: var(--main-four-color);
   transition: background-color 2s, color 3s;
 }
 
@@ -68,11 +68,11 @@ fieldset {
 
 .reservation__span:focus {
   border: 3px solid #640aa3;
-  background-color: #ffffff;
+  background-color: var(--main-four-color);
 }
 
 .reservation__legend {
-  color: #ffffff;
+  color: var(--main-four-color);
   font-size: 24px;
   font-weight: 700;
   line-height: 28px;
@@ -108,7 +108,7 @@ fieldset {
 }
 
 .reservation__input--focus:focus {
-  outline: 1px solid #CD06FF;
+  outline: 1px solid var(--main-three-color);
 }
 
 .reservation__input--big {
@@ -157,8 +157,8 @@ fieldset {
 .reservation__button {
   width: 300px;
   height: 60px;
-  background-color: #ffffff;
-  color: #6c0287;
+  background-color: var(--main-four-color);
+  color: var(--main-one-color);
   font-size: 22px;
   font-weight: 700;
   line-height: 28px;
@@ -172,13 +172,13 @@ fieldset {
 }
 
 .reservation__button:hover {
-  border: 3px solid #6c0287;
+  border: 3px solid var(--main-one-color);
   background-color: #eadeed;
 }
 
 .reservation__button:focus {
-  border: 3px solid #6c0287;
-  background-color: #ffffff;
+  border: 3px solid var(--main-one-color);
+  background-color: var(--main-four-color);
 }
 
 .reservation__button:active {
@@ -187,7 +187,7 @@ fieldset {
 
 .reservation__input--small:focus,
 .reservation__input--big:focus {
-  border: 2px solid #cd06ff;
-  background: #ffffff;
+  border: 2px solid var(--main-three-color);
+  background: var(--main-four-color);
   outline: none;
 }

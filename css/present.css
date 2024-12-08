@@ -1,6 +1,6 @@
 .present {
   width: 1180px;
-  height: 739px;
+  height: 808px;
   padding-top: 100px;
   margin: 0 auto;
 }
@@ -59,6 +59,7 @@
 
 .present__item--audio {
   background-image: url(../img/audio.jpg);
+  transform: translateY(70px);
 }
 
 .present__item--karaoke {
@@ -71,6 +72,7 @@
 
 .present__item--cinema {
   background-image: url(../img/netflix.jpg);
+  transform: translateY(70px);
 }
 
 .present__item--play {

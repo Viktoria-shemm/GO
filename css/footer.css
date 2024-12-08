@@ -46,8 +46,13 @@ p {
   margin-right: 30px;
 }
 
+.contacts__tel {
+  transition: 2s;
+}
+
 .contacts__mail {
   margin-top: 10px;
+  transition: 2s;
 }
 
 .contacts__mail::before {
@@ -55,6 +60,15 @@ p {
   float: left;
   margin-right: 30px;
 }
+
+.contacts__tel:hover {
+  color: var(--main-three-color);
+}
+
+.contacts__mail:hover {
+  color: var(--main-three-color);
+}
+
 
 .social {
   height: 49px;
@@ -81,19 +95,18 @@ p {
 }
 
 .social__img:active {
-  background-color: #cd06ff;
+  background-color: var(--main-three-color);
   border-radius: 25px;
 }
 
 .social__img-container:focus {
-  outline: 1px solid #cd06ff;
+  outline: 1px solid var(--main-three-color);
   background-color: #eadeed;
 }
 
-.map__img {
-  position: absolute;
-  right: 360px;
-  bottom: 180px;
+.contacts__flex {
+  display: inline-flex;
+  gap: 170px;
 }
 
 .footer__text {
@@ -103,20 +116,12 @@ p {
   text-align: left;
 }
 
-.footer__text-1 {
-  position: absolute;
-  left: 360px;
-  bottom: 32px;
+.footer__block-2 {
+  text-align: right;
 }
 
-.footer__text-2 {
-  position: absolute;
-  right: 360px;
-  bottom: 32px;
-}
-
-.footer__text-3 {
-  position: absolute;
-  right: 360px;
-  bottom: 10px;
+.footer__flex {
+  display: flex;
+  justify-content: space-between;
+  padding: 145px 350px 21px 350px;
 }

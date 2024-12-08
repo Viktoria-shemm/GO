@@ -10,7 +10,7 @@
 .navigation__list {
   display: inline-flex;
   align-items: center;
-  color: #ffffff;
+  color: var(--main-four-color);
   font-size: 22px;
   font-weight: 400;
   line-height: 50px;
@@ -19,11 +19,19 @@
   gap: 40px;
 }
 
+.navigation__link {
+  transition: 2s;
+}
+
+.navigation__link:hover {
+  color: #640aa3;
+}
+
 .header__button {
   width: 280px;
   height: 55px;
-  color: #ffffff;
-  border: 3px solid #cd06ff;
+  color: var(--main-four-color);
+  border: 3px solid var(--main-three-color);
   border-radius: 10px;
   font-size: 22px;
   font-weight: 700;
@@ -33,12 +41,12 @@
 }
 
 .header__button:hover {
-  border: 3px solid #6c0287;
-  background-color: #6c0287;
+  border: 3px solid var(--main-one-color);
+  background-color: var(--main-one-color);
 }
 
 .header__button:focus {
-  background-color: #6c0287;
+  background-color: var(--main-one-color);
 }
 
 .header__button:active {

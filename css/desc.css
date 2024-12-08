@@ -33,14 +33,14 @@
   content: "”";
   font-size: 44px;
   font-weight: 900;
-  color: rgb(108, 2, 135);
+  color: var(--main-one-color);
 }
 
 .desc__blockquote::before {
   content: "“";
   font-size: 44px;
   font-weight: 900;
-  color: rgb(108, 2, 135);
+  color: var(--main-one-color);
 }
 
 .desc__img-2 {

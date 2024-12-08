@@ -10,7 +10,7 @@
   align-items: center;
   justify-content: space-between;
   list-style: none;
-  background-color: #fff;
+  background-color: var(--main-four-color);
   color: #1c1a1a;
   font-weight: 700;
   font-size: 24px;
@@ -26,8 +26,8 @@
 }
 
 .questions__item:nth-child(even) {
-  background-color: #440f51;
-  color: #fff;
+  background-color: var(--main-two-color);
+  color: var(--main-four-color);
 }
 
 .questions__span--purple {

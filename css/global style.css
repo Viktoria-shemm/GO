@@ -22,7 +22,7 @@ body {
   min-height: 100vh;
   font-family: Arial, sans-serif;
   font-size: 16px;
-  color: #ffffff;
+  color: var(--main-four-color);
 }
 
 img,
@@ -41,7 +41,7 @@ button {
   cursor: pointer;
   border: none;
   background-color: transparent;
-  color: #ffffff;
+  color: var(--main-four-color);
 }
 
 a {

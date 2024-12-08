@@ -22,7 +22,7 @@
 }
 
 .feedback__container:last-child {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 .feedback__text {
@@ -36,4 +36,33 @@
   top: 52px;
   bottom: 179px;
   right: 0;
+}
+
+.feedback__img {
+  position: relative;
+}
+
+.feedback__gradient {
+  border-radius: 140px;
+  width: 280px;
+  height: 280px;
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    rgba(196, 196, 196, 0),
+    rgba(108, 2, 135, 0.5) 100%
+  );
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.feedback__figcaption {
+  width: 280px;
+  height: 39px;
+  padding-top: 11px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
 }
