@@ -77,6 +77,10 @@ iframe {
   transform: scale(0);
 }
 
+address {
+  font-style: normal;
+}
+
 /*
   Пример контейнера
   

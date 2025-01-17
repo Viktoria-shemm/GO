@@ -12,7 +12,8 @@
   <body class="page">
     <header class="header">
       <div class="container header__container">
-        <img class="header__logo" src="img/logo.svg" alt="логотип">
+        <div class="header__menu"></div>
+        <div class="header__logo"></div>
         <nav class="navigation">
           <ul class="navigation__list">
             <li class="navigation__item"><a class="navigation__link" href="#halls">Залы</a></li>
@@ -30,21 +31,21 @@
         <div class="container">
           <h1 class="content__title">Game Over</h1>
           <p class="content__subtitle">Новый формат игр и отдыха</p>
-          <p class="content__text content__text--left"><span class="content__span">4</span><br>Тематических <br> зала</p>
-          <p class="content__text content__text--right"><span class="content__span">new</span><br>Новейшая <br> аппаратура</p>
+          <p class="content__text content__text--left"><span class="content__span-1">4</span><br>Тематических <br> зала</p>
+          <p class="content__text content__text--right"><span class="content__span-2">NEW</span><br>Новейшая <br> аппаратура</p>
           <button class="content__button">Забронировать</button>
-          <button class="content__button-1"></button>
+          <a class="content__button-1" href="#present"></a>
         </div>
       </section>
-      <section class="present">
+      <section class="present" id="present">
         <div class="container">
           <h2 class="present__title">У нас есть все для классного <br> отдыха с друзьями!</h2>
           <ul class="present__list">
-            <li class="present__item present__item--vr"></li>
+            <li class="present__item present__item--vr"><span class="present__text-1">VR очки</span></li>
             <li class="present__item present__item--game"><span class="present__text-1">Настольные игры</span></li>
-            <li class="present__item present__item--audio"><span class="present__text-2">Аудио-система 5.1 с отличным звуком</span></li>
-            <li class="present__item present__item--cinema"><span class="present__text-2">Кино сервисы Netflix, IVI, MegoGo, КиноПоиск, Okko</span></li>
-            <li class="present__item present__item--karaoke"><span class="present__text-1">Караоке (4 микрофона)</span></li>
+            <li class="present__item present__item--audio"><span class="present__text-2">Аудио-система 5.1 <br> с отличным звуком</span></li>
+            <li class="present__item present__item--cinema"><span class="present__text-2 present__text-3">Кино сервисы Netflix, IVI, MegoGo, КиноПоиск, Okko</span></li>
+            <li class="present__item present__item--karaoke"><span class="present__text-1 present__text-4">Караоке (4 микрофона)</span></li>
             <li class="present__item present__item--play"><span class="present__text-1">PlayStation 5</span></li>
           </ul>
         </div>
@@ -74,22 +75,22 @@
               </fieldset>
               <fieldset class="reservation__block reservation__block-2">
                 <legend class="reservation__legend">Собери набор развлечений</legend>
-                <fieldset class="reservation__fieldset">
-                  <legend class="reservation__legend">Приставка</legend>
+                <fieldset class="reservation__console">
+                  <legend class="reservation__legend reservation__legend--console">Приставка:</legend>
                   <label class="reservation__label"><input class="reservation__input reservation__input--focus" type="radio" name="console" value="PlayStation">PlayStation 5</label>
                   <label class="reservation__label"><input class="reservation__input reservation__input--focus" type="radio" name="console" value="Sega-Mega-Drive">Sega Mega Drive</label>
                   <label class="reservation__label"><input class="reservation__input reservation__input--focus" type="radio" name="console" value="X-box-One-S">X-box One S</label>
                   <label class="reservation__label"><input class="reservation__input reservation__input--focus reservation__input--lc" type="radio" name="console" value="Dendy">Dendy</label>
                 </fieldset>
-                <fieldset class="reservation__fieldset">
-                  <legend class="reservation__legend">Настольные игры</legend>
+                <fieldset class="reservation__game">
+                  <legend class="reservation__legend reservation__legend--game">Настольные игры</legend>
                   <label class="reservation__label"><input class="reservation__input reservation__input--focus" type="checkbox" name="game" value="Jenga">Jenga</label>
                   <label class="reservation__label"><input class="reservation__input reservation__input--focus" type="checkbox" name="game" value="Monopoly">Monopoly</label>
                   <label class="reservation__label"><input class="reservation__input reservation__input--focus" type="checkbox" name="game" value="Munchkin">Манчкин</label>
                   <label class="reservation__label"><input class="reservation__input reservation__input--focus reservation__input--lc" type="checkbox" name="game" value="Alias">Alias</label>
                 </fieldset>
-                <fieldset class="reservation__fieldset">
-                  <legend class="reservation__legend">Дополнительно</legend>
+                <fieldset class="reservation__additionally">
+                  <legend class="reservation__legend reservation__legend--additionally">Дополнительно</legend>
                   <label class="reservation__label"><input class="reservation__input reservation__input--focus" type="checkbox" name="add" value="Karaoke">Караоке</label>
                   <label class="reservation__label"><input class="reservation__input reservation__input--focus reservation__input--lc" type="checkbox" name="add" value="VR">VR</label>
                 </fieldset>
@@ -106,60 +107,68 @@
                       <label class="reservation__label">
                         Имя
                         <br>
-                        <input class="reservation__input reservation__input--big" type="text" name="name" required>
+                        <input class="reservation__input reservation__input--name" type="text" name="name" required>
                       </label> 
                       <label class="reservation__label">
                         Фамилия
                         <br>
-                        <input class="reservation__input reservation__input--big" type="text" name="surname" required>
+                        <input class="reservation__input reservation__input--surname" type="text" name="surname" required>
                       </label> 
                   </div>
                   <div class="block-3">
                       <label class="reservation__label">
                         Телефон
                         <br>
-                        <input class="reservation__input reservation__input--big" type="tel" name="tel" required>
+                        <input class="reservation__input reservation__input--big reservation__input--tel" type="tel" name="tel" required>
                       </label> 
                       <label class="reservation__label">
                         E-mail
                         <br>
-                        <input class="reservation__input reservation__input--big" type="email" name="email" required>
+                        <input class="reservation__input reservation__input--big reservation__input--email" type="email" name="email" required>
                       </label> 
                   </div>
                 </div>
-                <!-- <label class="reservation__label"><input class="reservation__input" type="checkbox" name="proof-of-age" value="I-am-over-18-years-old" required>Я старше 18 лет</label> --> 
               </fieldset>           
             </fieldset>
-            <button class="reservation__button" type="submit">Забронировать</button>
-            <!-- <label class="reservation__label"><input class="reservation__input" type="checkbox" name="personal data" value="I-agree-to-data-processing" required>Согласен на обработку данных</label> -->
+            <div class="button">
+              <button class="reservation__button" type="submit">Забронировать</button>
+            </div>
           </form>
         </div>
       </section>
       <section class="desc" id="about-us">
         <div class="container">
           <h2 class="desc__title">О нас</h2>
-          <img src="../GO/Графика/photos-1.png" alt="игровые разработки" class="desc__img-1">
-          <p class="desc__text">
-            Для наших гостей мы создали
-            концептуально новое игровое пространство виртуальной реальности
-            в центральной части города.
-          </p>
-          <p class="desc__text">
-            Каждый день мы стараемся создавать для вас самую лучшую игровую
-            атмосферу и радовать вас топовыми игровыми разработками со всего мира.
-          </p>
-          <blockquote class="desc__blockquote">
-            GAME OVER —
-            <br>это место незабываемых впечатлений
-          </blockquote>
-          <figure class="desc__figure">
-            <img class="desc__img-2" src="Графика/Ellipse.png" alt="Аркадий Абакшин, создатель игровой территории GAME OVER">
-            <figcaption class="desc__figcaption">
-              Аркадий Абакшин, <br>
-              создатель игровой <br>
-              территории GAME OVER
-            </figcaption>
-          </figure>
+          <div class="desc__block">
+            <div class="desc__block-1">
+              <img src="./img/about-us/entertainments.png" alt="игровые разработки" class="desc__img-1">
+            </div>
+            <div class="desc__block-2">
+              <p class="desc__text-1">
+                Для наших гостей мы создали концептуально новое <br>
+                игровое пространство виртуальной реальности <br>
+                в центральной части города. <br>
+              </p>
+              <p class="desc__text-2">
+                Каждый день мы стараемся создавать <br>
+                для вас самую лучшую игровую атмосферу <br>
+                и радовать Вас топовыми игровыми разработками  <br>
+                со всего мира.
+              </p>
+              <blockquote class="desc__blockquote">
+                <span class="forging-left">“</span>GAME OVER — это место 
+                незабываемых впечатлений<span class="forging-right">”</span>
+              </blockquote>
+              <figure class="desc__figure">
+                <img class="desc__img-2" src="./img/about-us/Arkady-Abakshin.png" alt="Аркадий Абакшин, создатель игровой территории GAME OVER">
+                <figcaption class="desc__figcaption">
+                  Аркадий Абакшин, <br>
+                  создатель игровой <br>
+                  территории GAME OVER
+                </figcaption>
+              </figure>
+            </div>
+          </div>
         </div>
       </section>
       <section class="feedback" id="feedback">
@@ -167,7 +176,7 @@
           <h2 class="feedback__title">ОТЗЫВЫ ПОСЕТИТЕЛЕЙ</h2>
           <div class="feedback__container">
             <figure class="feedback__figure">              
-              <img src="Графика/person1.png" alt="Макс Самойлов" class="feedback__img">
+              <img src="./img/feedback/Max-Samoilov.png" alt="Макс Самойлов" class="feedback__img">
               <div class="feedback__gradient"></div>
               <figcaption class="feedback__figcaption">Макс Самойлов</figcaption>
             </figure>
@@ -179,18 +188,18 @@
           </div>
           <div class="feedback__container">
             <figure class="feedback__figure">
-              <img src="Графика/person2.png" alt="Оксана Григорьева" class="feedback__img">
+              <img src="./img/feedback/Oksana-Grigorieva.png" alt="Оксана Григорьева" class="feedback__img">
               <div class="feedback__gradient"></div>
               <figcaption class="feedback__figcaption">Оксана Григорьева</figcaption>
             </figure>
             <p class="feedback__text">
-              Были в комнате Дикий запад, пели в караоке под Шакиру, отличный
-              получился корпоратив! У нас в городе больше нет подобных заведений
+              Были в комнате Дикий Запад, пели в караоке под Шакиру, отличный получился корпоратив! 
+              У нас в городе больше нет подобных заведений
             </p>
           </div>
           <div class="feedback__container">
             <figure class="feedback__figure">
-              <img src="Графика/person3.png" alt="Никита Ященко" class="feedback__img">
+              <img src="./img/feedback/Nikita-Yashchenko.png" alt="Никита Ященко" class="feedback__img">
               <div class="feedback__gradient"></div>
               <figcaption class="feedback__figcaption">Никита Ященко</figcaption>
             </figure>
@@ -217,7 +226,7 @@
               Какая комната самая популярная?
               <span class="questions__span questions__span--purple"></span>
             </li>
-            <li class="questions__item questions__item_purple">
+            <li class="questions__item questions__item_purple questions__item_1024px">
               Как получить VIP карту?
               <span class="questions__span questions__span--white"></span>
             </li>
@@ -237,8 +246,7 @@
             <div class="contacts__block-1">
               <address class="contacts__address">
                 <p class="contacts__text">
-                  г. Москва <br>
-                  ул. Аквамарина, 16
+                  г. Москва <br> ул. Усачёва, 29 к3
                 </p>
               </address>
               <div class="contacts__contact-us">
@@ -252,7 +260,7 @@
                       >
                       <div class="social__img-container">                    
                         <img  class="social__img" 
-                        src="./Графика/entypo-social_vk-with-circle.png" 
+                        src="./img/footer/vk.png" 
                         alt="vk">
                       </div>
                     </a>
@@ -262,7 +270,7 @@
                       >
                       <div class="social__img-container">                    
                         <img  class="social__img"
-                         src="./Графика/Group.png"
+                         src="./img/footer/tg.png"
                          alt="telegram">
                       </div>
                     </a> 
@@ -272,7 +280,7 @@
                       >
                       <div class="social__img-container">                    
                         <img  class="social__img" 
-                        src="./Графика/Vector.png" 
+                        src="./img/footer/pinterest.png" 
                         alt="pinterest">
                       </div>
                     </a>
@@ -282,7 +290,7 @@
                       >
                       <div class="social__img-container">
                         <img  class="social__img"
-                          src="./Графика/foundation_social-stumbleupon.png"
+                          src="./img/footer/stumbleupon.png"
                           alt="stumbleupon">
                       </div>
                     </a> 
@@ -291,7 +299,7 @@
               </div>
             </div>
             <div class="contacts__block-2">
-              <img class="map__img" src="img/map.jpg" alt="карта">
+              <div class="map"></div>
             </div>
           </div>
         </div>

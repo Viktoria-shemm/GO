@@ -1,0 +1,1691 @@
+@media (max-width: 1250px) {
+  .header__logo {
+    background-image: url(../img/header/logo_1024px.svg);
+    background-repeat: no-repeat;
+    width: 87px;
+    height: 55px;
+  }
+
+  .navigation__list {
+    font-size: 18px;
+    column-gap: 20px;
+  }
+
+  .header__button {
+    width: 229px;
+    height: 45px;
+    font-size: 18px;
+  }
+
+  .header__container {
+    width: 904px;
+    height: 88px;
+  }
+
+  .content__title {
+    font-size: 120px;
+    letter-spacing: -12px;
+  }
+
+  .content__subtitle {
+    font-size: 22px;
+    line-height: 40px;
+  }
+
+  .content__span-1 {
+    font-size: 80px;
+  }
+
+  .content__span-2 {
+    font-size: 60px;
+  }
+
+  .content__text {
+    font-size: 26px;
+  }
+
+  .content__button {
+    width: 296px;
+    height: 64px;
+    font-size: 22px;
+    left: 38px;
+    bottom: 64px;
+  }
+
+  .content__button-1 {
+    width: 67px;
+    height: 67px;
+    background-size: contain;
+    left: 418px;
+    bottom: 45px;
+  }
+
+  .content__title::after {
+    content: url(../img/content/man_1024px.png);
+    top: 90px;
+  }
+
+  .content {
+    width: 904px;
+    min-height: 609px;
+    padding-top: 12px;
+  }
+
+  .content__text--left {
+    bottom: 209px;
+  }
+
+  .content__text {
+    line-height: 30px;
+  }
+
+  .content__span-1 {
+    line-height: 113px;
+  }
+
+  .content__text--right {
+    left: 208px;
+    bottom: 209px;
+  }
+
+  .content__span-2 {
+    font-size: 49px;
+    line-height: 157px;
+  }
+
+  .present__title {
+    font-size: 30px;
+    line-height: 43px;
+    margin-bottom: 34px;
+  }
+
+  .present__item {
+    width: 287px;
+    height: 172px;
+    background-size: contain;
+  }
+
+  .present__list {
+    gap: 30px 5px;
+    width: 921px;
+    height: 374px;
+  }
+
+  .present {
+    width: 904px;
+    height: 659px;
+    padding-top: 80px;
+  }
+
+  .present__text-1 {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .present__item--audio {
+    transform: translateY(53px);
+  }
+
+  .present__item--cinema {
+    transform: translateY(52px);
+  }
+
+  .present__text-1 {
+    left: 20px;
+    bottom: 30px;
+  }
+
+  .present__text-2 {
+    left: 20px;
+    bottom: 2px;
+  }
+
+  .present__text-3 {
+    bottom: 5px;
+    width: 247px;
+  }
+
+  .halls__title {
+    font-size: 30px;
+  }
+
+  .halls__item {
+    width: 443px;
+    height: 267px;
+    font-size: 50px;
+    margin-bottom: 19px;
+    margin-right: 18px;
+    line-height: 60px;
+  }
+
+  .halls {
+    width: 904px;
+    height: 737px;
+    padding-top: 40px;
+    padding-bottom: 72px;
+    min-height: unset;
+  }
+
+  .halls__title {
+    padding-bottom: 38px;
+  }
+
+  .reservation__title {
+    font-size: 30px;
+    margin-bottom: 36px;
+  }
+
+  .reservation__span {
+    width: 180px;
+    height: 44px;
+    font-size: 20px;
+    line-height: 24px;
+    border-radius: 6px;
+  }
+
+  .reservation {
+    width: 100%;
+    height: 1007px;
+    min-height: unset;
+    padding-top: 54px;
+  }
+
+  .reservation__button {
+    width: 254px;
+    height: 50px;
+    font-size: 18px;
+    line-height: 24px;
+    right: 536px;
+    bottom: 18px;
+  }
+
+  .reservation__legend {
+    margin-bottom: 26px;
+  }
+
+  .reservation__block-2 {
+    justify-content: space-between;
+    min-height: 333px;
+  }
+
+  .reservation__console {
+    padding-left: 0px;
+  }
+
+  .reservation__game {
+    padding-right: 3px;
+  }
+
+  .reservation__additionally {
+    padding-right: 65px;
+  }
+
+  .reservation__legend--console {
+    margin-bottom: 23px;
+  }
+
+  .reservation__legend--game {
+    margin-bottom: 15px;
+  }
+
+  .reservation__legend--additionally {
+    margin-bottom: 20px;
+  }
+
+  .block-1 {
+    left: 0px;
+    top: 22px;
+  }
+
+  .block-2 {
+    bottom: 58px;
+    left: 350px;
+  }
+
+  .block-3 {
+    bottom: 58px;
+    right: 0px;
+  }
+
+  .reservation__input--name,
+  .reservation__input--surname {
+    width: 251px;
+  }
+
+  .reservation__input--tel,
+  .reservation__input--email {
+    width: 254px;
+  }
+
+  .desc {
+    width: 904px;
+    min-height: 574px;
+    padding-top: 65px;
+  }
+
+  .desc__title {
+    font-size: 30px;
+    padding-bottom: 21px;
+  }
+
+  .desc__img-1 {
+    width: 420px;
+    height: 418px;
+  }
+
+  .desc__text-1,
+  .desc__text-2 {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .desc__text-1 {
+    margin-bottom: 24px;
+  }
+
+  .desc__text-2 {
+    margin-bottom: 40px;
+  }
+
+  .desc__blockquote {
+    font-size: 30px;
+    line-height: 36px;
+  }
+
+  .desc__figcaption {
+    font-size: 18px;
+    line-height: 26px;
+  }
+
+  .desc__block {
+    column-gap: 40px;
+  }
+
+  .desc__blockquote {
+    padding-left: 25px;
+    margin-bottom: 19px;
+    width: 419px;
+  }
+
+  .forging-left {
+    font-size: 30px;
+    right: 404px;
+    bottom: 83px;
+  }
+
+  .forging-right {
+    font-size: 30px;
+    left: 255px;
+    top: 70px;
+  }
+
+  .desc__img-2 {
+    width: 70px;
+    height: 77px;
+    padding-top: 8px;
+  }
+
+  .desc__figure {
+    width: 429px;
+    padding-left: 113px;
+  }
+
+  .feedback__title {
+    font-size: 30px;
+    line-height: 40px;
+    padding-bottom: 26px;
+  }
+
+  .feedback__text {
+    font-size: 18px;
+    line-height: 26px;
+    width: 515px;
+    height: 105px;
+    top: 33px;
+  }
+
+  .feedback__img,
+  .feedback__gradient {
+    width: 172px;
+    height: 172px;
+  }
+
+  .feedback__gradient {
+    border-radius: 50%;
+    left: 100px;
+  }
+
+  .feedback {
+    width: 904px;
+    min-height: 803px;
+    padding-top: 70px;
+  }
+
+  .feedback__container {
+    width: 825px;
+    height: 219px;
+    margin-bottom: 40px;
+    padding-left: 100px;
+  }
+
+  .feedback__figcaption {
+    width: 224px;
+    height: 46px;
+    font-size: 18px;
+    line-height: 26px;
+    padding-top: 21px;
+    padding-right: 52px;
+  }
+
+  .questions__title {
+    font-size: 30px;
+    line-height: 40px;
+    padding-bottom: 26px;
+  }
+
+  .questions__item {
+    width: 904px;
+    height: 69px;
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 17px;
+    padding: 25px 30px;
+  }
+
+  .questions__item:first-child {
+    padding: 25px 25px;
+  }
+
+  .questions__item:nth-child(even) {
+    background-color: var(--main-four-color);
+    color: #1c1a1a;
+  }
+
+  .questions__item:last-child {
+    display: none;
+  }
+
+  .questions__item:nth-child(4) {
+    margin-bottom: 0;
+  }
+
+  .questions__span--white {
+    background-image: url(../img/questions/open-purple.svg);
+  }
+
+  .questions__span--white:hover {
+    background-image: url(../img/questions/open-p-hover.png);
+  }
+
+  .questions__span--white:active {
+    background-image: url(../img/questions/close-p-active.png);
+  }
+
+  .questions {
+    width: 904px;
+    min-height: 393px;
+    padding-top: 70px;
+  }
+
+  .questions__item_1024px {
+    margin-bottom: 0;
+  }
+
+  .questions__span--purple {
+    right: 20px;
+    bottom: 11px;
+  }
+
+  .questions__span--white {
+    right: 20px;
+    bottom: 11px;
+  }
+
+  .contacts__title {
+    font-size: 30px;
+    line-height: 40px;
+    padding-bottom: 26px;
+  }
+
+  .contacts a,
+  p {
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  .map {
+    width: 542px;
+    height: 274px;
+    background-image: url(../img/footer/map_1024px.jpg);
+  }
+
+  .social__img {
+    width: 38.4px;
+    height: 38.4px;
+  }
+
+  .footer {
+    width: 100%;
+    min-height: 501px;
+    padding-top: 70px;
+  }
+
+  .contacts {
+    width: 904px;
+    margin: 0 auto;
+  }
+
+  .contacts__block-1 {
+    padding-left: 1px;
+  }
+
+  .contacts__flex {
+    gap: 58px;
+  }
+
+  .contacts__text::before {
+    content: url(../img/footer/location_1024px.svg);
+    margin-right: 13px;
+    margin-top: 15px;
+  }
+
+  .contacts__tel::before {
+    content: url(../img/footer/phone_1024px.svg);
+    margin-right: 13px;
+    margin-top: 3px;
+  }
+
+  .contacts__mail::before {
+    content: url(../img/footer/mail_1024px.svg);
+    margin-right: 13px;
+  }
+
+  .contacts__mail {
+    margin-top: 9px;
+  }
+
+  .footer__flex {
+    width: 904px;
+    height: 149px;
+    padding-top: 94px;
+  }
+
+  .social__item {
+    padding-right: 23px;
+  }
+
+  .footer .container {
+    width: 904px;
+    margin: 0 auto;
+  }
+
+  .reservation .container {
+    width: 904px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 930px) {
+  .navigation {
+    display: none;
+  }
+
+  .header__menu {
+    display: inline-block;
+    background-image: url(../img/header/menu.svg);
+    width: 54px;
+    height: 29px;
+  }
+
+  .header__menu:hover {
+    background-image: url(../img/header/menu_hover.svg);
+  }
+
+  .header__menu:active {
+    background-image: url(../img/header/menu_active.svg);
+  }
+
+  .header__menu:focus {
+    background-image: url(../img/header/menu_focus.svg);
+  }
+
+  .header__container {
+    width: 688px;
+    height: 81px;
+    padding-top: 9px;
+  }
+
+  .header__button {
+    border-radius: 8px;
+  }
+
+  .content__title {
+    font-size: 86px;
+    line-height: 100%;
+    width: unset;
+    height: unset;
+    letter-spacing: -8px;
+  }
+
+  .content__subtitle {
+    font-size: 18px;
+    line-height: 24px;
+    padding-left: 70px;
+    padding-top: 20px;
+  }
+
+  .content__span-1 {
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 71px;
+  }
+
+  .content__text--left {
+    font-size: 16px;
+    line-height: 18px;
+    bottom: 249px;
+  }
+
+  .content__span-2 {
+    font-size: 33px;
+    height: 62px;
+    line-height: 71px;
+  }
+
+  .content__text--right {
+    font-size: 16px;
+    line-height: 18px;
+    left: 135px;
+    bottom: 249px;
+  }
+
+  .content__button {
+    width: 214px;
+    height: 46px;
+    border-radius: 4px;
+    font-size: 16px;
+    line-height: 24px;
+    left: 0px;
+    bottom: 104px;
+  }
+
+  .content__title::after {
+    content: "";
+    background-image: url(../img/content/man_768px.png);
+    width: 409px;
+    height: 479px;
+    top: 77px;
+  }
+
+  .content__button-1 {
+    display: none;
+  }
+
+  .content {
+    width: 688px;
+    min-height: 556px;
+    padding-top: 19px;
+  }
+
+  .present__list {
+    flex-flow: row wrap;
+    width: 688px;
+    height: 639px;
+    gap: 20px;
+  }
+
+  .present__title {
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 30px;
+  }
+
+  .present__item {
+    width: 334px;
+    height: 200px;
+    background-repeat: no-repeat;
+  }
+
+  .present__text {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .present__text-1 {
+    left: 30px;
+    bottom: 40px;
+  }
+
+  .present__text-2 {
+    left: 30px;
+    bottom: 12px;
+  }
+
+  .present__text-3 {
+    width: 262px;
+  }
+
+  .present__item--cinema {
+    transform: unset;
+  }
+
+  .present__item--audio {
+    transform: unset;
+  }
+
+  .present {
+    width: 688px;
+    min-height: 840px;
+    padding-top: 80px;
+  }
+
+  .present__item--vr {
+    order: 0;
+  }
+
+  .present__item--game {
+    order: 3;
+  }
+
+  .present__item--audio {
+    order: 1;
+  }
+
+  .present__item--cinema {
+    order: 4;
+  }
+
+  .present__item--karaoke {
+    order: 2;
+  }
+
+  .present__item--play {
+    order: 5;
+  }
+
+  .halls__title {
+    font-size: 24px;
+    line-height: 36px;
+    padding-bottom: 35px;
+  }
+
+  .halls__item {
+    width: 335px;
+    height: 200px;
+    font-size: 40px;
+    line-height: 50px;
+    background-repeat: no-repeat;
+    margin-bottom: 17px;
+    margin-right: 19px;
+    padding-top: 24px;
+    background-size: cover;
+  }
+
+  .halls {
+    width: 688px;
+    height: 593px;
+    padding-top: 42px;
+    padding-bottom: 62px;
+  }
+
+  .reservation__title {
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 39px;
+  }
+
+  .reservation__span {
+    width: 150px;
+    height: 38px;
+    font-size: 16px;
+    line-height: 20px;
+    padding-top: 2px;
+  }
+
+  .reservation__legend {
+    margin-bottom: 30px;
+  }
+
+  .reservation__block-1 {
+    margin-bottom: 50px;
+    column-gap: 29px;
+    justify-content: unset;
+  }
+
+  .reservation__block-2 > .reservation__legend {
+    grid-area: legend;
+  }
+
+  .reservation__console {
+    margin-bottom: 32px;
+    grid-area: console;
+    margin-bottom: 32px;
+  }
+
+  .reservation__game {
+    grid-area: game;
+  }
+
+  .reservation__additionally {
+    grid-area: additionally;
+    row-gap: 34px;
+  }
+
+  .reservation__legend--game,
+  .reservation__legend--additionally {
+    text-align: left;
+  }
+
+  .reservation__block-2 .reservation__input {
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+  }
+
+  .reservation .container {
+    width: 688px;
+    height: 1256px;
+  }
+
+  .reservation {
+    height: 1307px;
+    padding-top: 51px;
+  }
+
+  .reservation__legend--console {
+    margin-bottom: 24px;
+  }
+
+  .reservation__block-2 .reservation__label {
+    height: fit-content;
+  }
+  .reservation__legend--game {
+    margin-bottom: 23px;
+  }
+
+  .reservation__game {
+    row-gap: 0px;
+    grid-area: game;
+    padding-bottom: 12px;
+  }
+
+  .reservation__legend--additionally {
+    margin-bottom: 23px;
+  }
+
+  .reservation__block-2 {
+    min-height: 560px;
+    margin-bottom: 3px;
+    display: grid;
+    grid-template-areas:
+      "legend legend"
+      "console game"
+      "additionally .";
+    grid-template-columns: 301px 321px;
+  }
+
+  .reservation__block-3 {
+    height: max-content;
+  }
+
+  .reservation__block-3 > .reservation__legend {
+    margin-bottom: 8px;
+  }
+
+  .reservation__container {
+    height: 314px;
+  }
+
+  .block-1 {
+    display: grid;
+    grid-template-columns: 148px 240px 300px;
+    height: 52px;
+    width: 688px;
+    gap: 0;
+  }
+
+  .reservation__input--name,
+  .reservation__input--surname {
+    width: 282px;
+  }
+
+  .reservation__input--tel,
+  .reservation__input--email {
+    width: 300px;
+  }
+
+  .block-2 {
+    bottom: 36px;
+    left: 0px;
+  }
+
+  .block-3 {
+    bottom: 36px;
+    right: 0px;
+  }
+
+  .reservation__button {
+    width: 300px;
+    height: 60px;
+    font-size: 22px;
+    line-height: 28px;
+    right: 0px;
+    bottom: -12px;
+  }
+
+  .button {
+    width: 688px;
+    height: 60px;
+  }
+
+  .desc__title {
+    font-size: 24px;
+    line-height: 36px;
+    padding-bottom: 30px;
+  }
+
+  .desc__img-1,
+  .desc__block-1 {
+    width: 382px;
+    height: 380px;
+    float: left;
+  }
+
+  .desc__text-1 {
+    font-size: 16px;
+    line-height: 22px;
+    width: 278px;
+    margin-bottom: 23px;
+  }
+
+  .desc__text-2 {
+    font-size: 16px;
+    line-height: 22px;
+    width: 278px;
+    margin-bottom: 0;
+  }
+
+  .desc__blockquote {
+    font-size: 32px;
+    line-height: 36px;
+    width: 666px;
+    height: 79px;
+    position: absolute;
+    bottom: 81px;
+    right: 25px;
+  }
+
+  .desc__figure {
+    position: absolute;
+    bottom: 6px;
+    right: 15px;
+    width: 306px;
+    padding-left: 1px;
+  }
+
+  .desc {
+    width: 688px;
+    min-height: 725px;
+    padding-top: 60px;
+  }
+
+  .desc__block {
+    display: inline-block;
+    width: 688px;
+    height: 600px;
+    position: relative;
+  }
+
+  .desc__text-1 br {
+    display: none;
+  }
+
+  .desc__text-2 br {
+    display: none;
+  }
+
+  .desc__block-2 {
+    width: 278px;
+    height: 380px;
+    float: right;
+    padding-top: 67px;
+  }
+
+  .forging-left {
+    right: 648px;
+    bottom: 54px;
+  }
+
+  .forging-right {
+    left: 552px;
+    top: 34px;
+  }
+
+  .feedback__title {
+    font-size: 24px;
+    line-height: 36px;
+    padding-bottom: 30px;
+  }
+
+  .feedback__img,
+  .feedback__gradient {
+    width: 153px;
+    height: 153px;
+  }
+
+  .feedback__gradient {
+    left: 63px;
+  }
+
+  .feedback__text {
+    font-size: 16px;
+    line-height: 22px;
+    width: 393px;
+    height: 94px;
+    right: 64px;
+  }
+
+  .feedback__figcaption {
+    font-size: 14px;
+    line-height: 20px;
+    padding-top: 18px;
+    padding-right: 68px;
+  }
+
+  .feedback {
+    width: 688px;
+    min-height: 700px;
+    padding-top: 50px;
+  }
+
+  .feedback__container {
+    width: 688px;
+    height: 219px;
+    margin-bottom: 2px;
+    padding-left: 63px;
+  }
+
+  .questions {
+    width: 688px;
+    min-height: 383px;
+    padding-top: 30px;
+  }
+
+  .questions__title {
+    font-size: 24px;
+    line-height: 26px;
+    padding-bottom: 30px;
+  }
+
+  .questions__item {
+    width: 688px;
+    height: 70px;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 16px;
+    padding: 25px 59px;
+  }
+
+  .questions__item:first-child {
+    padding: 25px 54px;
+  }
+
+  .questions__span {
+    right: 65px;
+    bottom: 12px;
+  }
+
+  .contacts__title {
+    font-size: 24px;
+    line-height: 36px;
+    padding-bottom: 30px;
+  }
+
+  .contacts__flex {
+    display: inline-block;
+  }
+
+  .contacts a,
+  p {
+    text-align: center;
+    position: relative;
+  }
+
+  .social__list {
+    text-align: center;
+  }
+
+  .footer .container,
+  .contacts {
+    width: 688px;
+  }
+
+  .map {
+    width: 688px;
+    height: 337px;
+    background-image: url(../img/footer/map_768px.jpg);
+  }
+
+  .contacts__text::before {
+    float: unset;
+    margin: unset;
+    position: absolute;
+    left: 252px;
+    bottom: 25px;
+  }
+
+  .contacts__tel::before {
+    float: unset;
+    margin: unset;
+    position: absolute;
+    left: 206px;
+    top: 1px;
+  }
+
+  .contacts__mail::before {
+    float: unset;
+    margin: unset;
+    position: absolute;
+    left: 172px;
+    top: 1px;
+  }
+
+  .footer {
+    padding-top: 69px;
+  }
+
+  .contacts__contact-us {
+    margin-top: 0px;
+    margin-bottom: 27px;
+  }
+
+  .contacts__tel {
+    padding-left: 25px;
+    margin-bottom: 27px;
+  }
+
+  .contacts__mail {
+    margin-top: 0px;
+  }
+
+  .social {
+    margin-top: 0px;
+    padding-left: 22px;
+    margin-bottom: 21px;
+  }
+
+  .contacts__address {
+    margin-bottom: 32px;
+  }
+
+  .footer__flex {
+    width: 688px;
+    height: 100px;
+    padding-top: 74px;
+  }
+}
+
+@media (max-width: 700px) {
+  .header__container {
+    width: 280px;
+    height: 62px;
+    padding-top: 19px;
+  }
+
+  .header__menu {
+    width: 39px;
+    height: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .header__logo {
+    width: 66px;
+    height: 42px;
+    background-size: contain;
+  }
+
+  .header__button {
+    display: none;
+  }
+
+  .content__title {
+    font-size: 35px;
+    line-height: 100%;
+    letter-spacing: -3px;
+  }
+
+  .content__subtitle {
+    font-size: 10px;
+    line-height: 14px;
+    padding-left: 20px;
+    padding-top: 7px;
+  }
+
+  .content__span-1 {
+    font-size: 26px;
+    line-height: 37px;
+  }
+
+  .content__text--left {
+    font-size: 10px;
+    line-height: 11px;
+    bottom: 82px;
+  }
+
+  .content__span-2 {
+    font-size: 18px;
+    line-height: 31px;
+    height: 29px;
+  }
+
+  .content__text--right {
+    font-size: 10px;
+    line-height: 11px;
+    left: 85px;
+    bottom: 82px;
+  }
+
+  .content__button {
+    width: 117px;
+    height: 27px;
+    border-radius: 4px;
+    font-size: 10px;
+    line-height: 12px;
+    bottom: 25px;
+  }
+
+  .content__title::after {
+    width: 158px;
+    height: 181px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: 43px;
+    left: 120px;
+  }
+
+  .content {
+    width: 280px;
+    min-height: 226px;
+  }
+
+  .present {
+    width: 280px;
+    min-height: 296px;
+    height: unset;
+    padding-top: 44px;
+  }
+
+  .present__title {
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 15px;
+  }
+
+  .present__item {
+    width: 135px;
+    height: 75px;
+    background-size: cover;
+  }
+
+  .present__text-1 {
+    font-size: 10px;
+    line-height: 14px;
+    left: 10px;
+    bottom: 31px;
+  }
+
+  .present__text-2 {
+    font-size: 10px;
+    line-height: 14px;
+    left: 10px;
+    bottom: 17px;
+  }
+
+  .present__text-3 {
+    width: 113px;
+    bottom: 3px;
+  }
+
+  .present__text-4 {
+    width: 100px;
+    bottom: 17px;
+  }
+
+  .present__list {
+    width: 280px;
+    height: 245px;
+    gap: 10px;
+  }
+
+  .halls {
+    width: 280px;
+    height: 795px;
+    padding: 30px 0;
+  }
+
+  .halls__title {
+    font-size: 14px;
+    line-height: 18px;
+    padding-bottom: 15px;
+  }
+
+  .halls__item {
+    width: 280px;
+    height: 168px;
+    font-size: 26px;
+    line-height: 34px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .halls__list {
+    grid-template-columns: 280px;
+    row-gap: 10px;
+  }
+
+  .reservation {
+    padding-top: 30px;
+    height: 1519px;
+  }
+
+  .reservation .container {
+    width: 320px;
+    height: 1519px;
+  }
+
+  .reservation__title {
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 13px;
+  }
+
+  .reservation__legend {
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 15px;
+  }
+
+  .reservation__span {
+    width: 130px;
+    height: 30px;
+    border-radius: 4px;
+    font-size: 14px;
+    line-height: 18px;
+    padding-top: 0px;
+  }
+
+  .reservation__block-2 .reservation__label {
+    font-size: 16px;
+    line-height: 18px;
+  }
+
+  .reservation__block-2 .reservation__input {
+    width: 30px;
+    height: 30px;
+  }
+
+  .reservation__block-1 {
+    flex-flow: row wrap;
+    width: 320px;
+    margin-bottom: 30px;
+    justify-content: space-evenly;
+    gap: 14px 0px;
+  }
+
+  .reservation__block-2 {
+    min-height: 635px;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .reservation__console {
+    margin-bottom: 25px;
+    padding-left: 20px;
+    row-gap: 15px;
+  }
+
+  .reservation__game {
+    padding-left: 20px;
+    row-gap: 21px;
+    padding-bottom: 0px;
+    margin-bottom: 22px;
+  }
+
+  .reservation__additionally {
+    row-gap: 23px;
+    padding: 1px 0px 0px 20px;
+    height: 115px;
+  }
+
+  .reservation__block-3 > .reservation__legend {
+    margin-bottom: 2px;
+  }
+
+  .block-1 {
+    display: inline-flex;
+    flex-flow: row wrap;
+    width: 280px;
+    gap: 15px 12px;
+    left: 20px;
+  }
+
+  .block-1 .reservation__input--big {
+    width: 280px;
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .reservation__input--small {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .block-2 {
+    bottom: -25px;
+    left: 20px;
+  }
+
+  .reservation__input--name,
+  .reservation__input--surname {
+    width: 280px;
+  }
+
+  .reservation__input--tel,
+  .reservation__input--email {
+    width: 280px;
+  }
+
+  .block-3 {
+    bottom: -222px;
+    right: 20px;
+  }
+
+  .reservation__button {
+    width: 280px;
+    height: 60px;
+    border-radius: 4px;
+    font-size: 18px;
+    line-height: 26px;
+    right: 20px;
+    bottom: 0;
+    top: 257px;
+  }
+
+  .button {
+    width: 320px;
+  }
+
+  .desc {
+    width: 280px;
+    min-height: 655px;
+    padding-top: 0px;
+  }
+
+  .desc__block {
+    width: 280px;
+    display: flex;
+    flex-direction: column-reverse;
+    height: 421px;
+  }
+
+  .desc__title {
+    font-size: 14px;
+    line-height: 18px;
+    padding-top: 30px;
+    padding-bottom: 16px;
+  }
+
+  .desc__img-1,
+  .desc__block-1 {
+    width: 280px;
+    height: 280px;
+  }
+
+  .desc__block-2 {
+    padding-top: 0px;
+  }
+
+  .desc__text-1 {
+    font-size: 12px;
+    line-height: 16px;
+    margin-bottom: 15px;
+  }
+
+  .desc__text-2 {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .desc__text-2 br:last-child {
+    display: unset;
+  }
+
+  .desc__blockquote {
+    font-size: 18px;
+    line-height: 26px;
+    width: 270px;
+    height: 79px;
+    bottom: 0;
+    top: 442px;
+    right: 20px;
+  }
+
+  .desc__figure {
+    top: 530px;
+    right: 40px;
+    width: 240px;
+    padding-left: 0px;
+    height: 58px;
+    justify-content: unset;
+  }
+
+  .desc__img-2 {
+    width: 56px;
+    height: 56px;
+    padding-top: 0px;
+  }
+
+  .desc__figcaption {
+    font-size: 12px;
+    line-height: 16px;
+    width: 190px;
+    padding: 4px 0 0 11px;
+  }
+
+  .desc__figcaption br:last-child {
+    display: none;
+  }
+
+  .feedback {
+    width: 280px;
+    height: 662px;
+    padding-top: 25px;
+  }
+
+  .feedback__title {
+    font-size: 14px;
+    line-height: 16px;
+    padding-bottom: 14px;
+  }
+
+  .feedback__img,
+  .feedback__gradient {
+    width: 86px;
+    height: 86px;
+  }
+
+  .feedback__gradient {
+    left: 97px;
+  }
+
+  .feedback__figcaption {
+    font-size: 14px;
+    line-height: 20px;
+    padding: 6px 0 0 56px;
+  }
+
+  .feedback__text {
+    font-size: 12px;
+    line-height: 16px;
+    width: 280px;
+    height: 66px;
+    top: 132px;
+    right: 0;
+  }
+
+  .feedback__figure {
+    width: 280px;
+    height: 120px;
+    text-align: center;
+  }
+
+  .feedback__container {
+    width: 280px;
+    height: 219px;
+    margin-bottom: 0px;
+    padding-left: 0px;
+  }
+
+  .feedback__img {
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .questions {
+    width: 280px;
+    min-height: 247px;
+    padding-top: 17px;
+  }
+
+  .questions__title {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+    padding-bottom: 15px;
+  }
+
+  .questions__item {
+    width: 280px;
+    height: 46px;
+    font-size: 12px;
+    line-height: 16px;
+    padding: 15px 13px;
+    margin-bottom: 10px;
+  }
+
+  .questions__item:first-child {
+    padding: 0px 19px 0px 10px;
+  }
+
+  .questions__item:nth-child(2) {
+    padding: 8px 62px 8px 13px;
+  }
+
+  .questions__span {
+    width: 30px;
+    height: 30px;
+    right: 13px;
+    bottom: 9px;
+    background-size: contain;
+  }
+
+  .footer {
+    padding-top: 30px;
+  }
+
+  .footer .container,
+  .contacts {
+    width: 280px;
+  }
+
+  .contacts__title {
+    font-size: 14px;
+    line-height: 18px;
+    padding-bottom: 15px;
+  }
+
+  .contacts a,
+  p {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .map {
+    width: 280px;
+    height: 194px;
+    background-image: url(../img/footer/map_320px.jpg);
+  }
+
+  .footer__flex {
+    width: 280px;
+    line-height: 19px;
+    flex-direction: column;
+    padding-top: 60px;
+    align-items: center;
+    row-gap: 17px;
+    height: 134px;
+  }
+
+  .footer__text {
+    font-size: 12px;
+  }
+
+  .footer__block-2 {
+    text-align: center;
+  }
+
+  .contacts__text::before {
+    content: url(../img/footer/location_320px.svg);
+    left: 79px;
+    bottom: 15px;
+  }
+
+  .contacts__tel::before {
+    content: url(../img/footer/phone_320px.svg);
+    left: 58px;
+    top: -2px;
+    width: 20px;
+    height: 20px;
+  }
+
+  .contacts__mail::before {
+    content: url(../img/footer/mail_320px.svg);
+    left: 77px;
+    bottom: 12px;
+    left: 36px;
+    top: -2px;
+    width: 20px;
+    height: 20px;
+  }
+
+  .contacts__address {
+    margin-bottom: 11px;
+  }
+
+  .contacts__tel {
+    padding-left: 14px;
+    margin-bottom: 10px;
+  }
+
+  .social__img {
+    width: 28.8px;
+    height: 28.8px;
+  }
+
+  .contacts__contact-us {
+    margin-bottom: 11px;
+  }
+
+  .social {
+    margin-top: 0px;
+    padding-left: 14px;
+    margin-bottom: 15px;
+  }
+
+  .social__item {
+    padding-right: 16px;
+  }
+}

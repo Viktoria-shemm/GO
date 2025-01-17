@@ -11,7 +11,7 @@
   line-height: 50px;
   text-align: center;
   text-transform: uppercase;
-  margin-bottom: 40px;
+  margin-bottom: 43px;
 }
 
 .present__list {
@@ -40,7 +40,7 @@
   text-align: left;
   position: absolute;
   left: 40px;
-  bottom: 28px;
+  bottom: 34px;
 }
 
 .present__text-2 {
@@ -54,27 +54,27 @@
 }
 
 .present__item--vr {
-  background-image: url(../img/vr.jpg);
+  background-image: url(../img/present/vr.jpg);
 }
 
 .present__item--audio {
-  background-image: url(../img/audio.jpg);
+  background-image: url(../img/present/audio.jpg);
   transform: translateY(70px);
 }
 
 .present__item--karaoke {
-  background-image: url(../img/micro.jpg);
+  background-image: url(../img/present/micro.jpg);
 }
 
 .present__item--game {
-  background-image: url(../img/game.jpg);
+  background-image: url(../img/present/game.jpg);
 }
 
 .present__item--cinema {
-  background-image: url(../img/netflix.jpg);
+  background-image: url(../img/present/netflix.jpg);
   transform: translateY(70px);
 }
 
 .present__item--play {
-  background-image: url(../img/sony.jpg);
+  background-image: url(../img/present/sony.jpg);
 }

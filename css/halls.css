@@ -11,26 +11,26 @@
   font-weight: 700;
   text-align: center;
   text-transform: uppercase;
-  padding-bottom: 60px;
+  padding-bottom: 50px;
 }
 
 .halls__vibes {
-  background-image: url(../Графика/Rectangle29.jpg);
+  background-image: url(../img/halls/vibes.jpg);
   background-size: contain;
 }
 
 .halls__star-wars {
-  background-image: url(../Графика/Rectangle29-1.jpg);
+  background-image: url(../img/halls/star-wars.jpg);
   background-size: contain;
 }
 
 .halls__wild-west {
-  background-image: url(../Графика/Rectangle29-2.jpg);
+  background-image: url(../img/halls/wild-west.jpg);
   background-size: contain;
 }
 
 .halls__neon-style {
-  background-image: url(../Графика/Rectangle29-3.jpg);
+  background-image: url(../img/halls/neon-style.jpg);
   background-size: contain;
 }
 

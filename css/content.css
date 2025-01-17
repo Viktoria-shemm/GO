@@ -1,8 +1,8 @@
 .content {
   width: 1180px;
   margin: 0 auto;
-  min-height: 975px;
-  padding-top: 50px;
+  min-height: 869px;
+  padding-top: 46px;
   position: relative;
   z-index: 0;
 }
@@ -20,11 +20,11 @@
 }
 
 .content__title::after {
-  content: url(../Графика/Слой-1.png);
+  content: url(../img/content/man.png);
   z-index: 1;
   position: absolute;
   right: 0;
-  top: 210px;
+  top: 107px;
 }
 
 .content__subtitle {
@@ -33,7 +33,8 @@
   line-height: 50px;
   text-align: left;
   float: left;
-  padding-left: 104px;
+  padding-left: 100px;
+  padding-top: 1px;
 }
 
 .content__button {
@@ -47,7 +48,7 @@
   text-transform: uppercase;
   box-shadow: 0 0 20px var(--main-one-color);
   position: absolute;
-  left: 20px;
+  left: 0;
   bottom: 154px;
   transition: background-color 2s;
 }
@@ -65,7 +66,7 @@
 }
 
 .content__button-1 {
-  background-image: url(../Графика/down.png);
+  background-image: url(../img/content/down.png);
   width: 97px;
   height: 97px;
   position: absolute;
@@ -76,12 +77,11 @@
 }
 
 .content__button-1:hover {
-  background-image: url(../Графика/down_hover.png);
+  background-image: url(../img/content/down_hover.png);
 }
 
-
 .content__button-1:active {
-  background-image: url(../Графика/down_active.png);
+  background-image: url(../img/content/down_active.png);
 }
 
 .content__button-1:focus {
@@ -95,11 +95,20 @@
   text-align: center;
 }
 
-.content__span {
+.content__span-1 {
   color: var(--main-three-color);
   font-size: 100px;
   font-weight: 900;
   line-height: 141px;
+}
+
+.content__span-2 {
+  color: var(--main-three-color);
+  font-size: 63px;
+  font-weight: 900;
+  line-height: 141px;
+  display: inline-block;
+  height: 116px;
 }
 
 .content__text--left {
