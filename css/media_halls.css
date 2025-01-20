@@ -1,0 +1,133 @@
+@media (max-width: 1920px) {
+  .west__img,
+  .vibes__img,
+  .neon__img,
+  .star__img {
+    width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 1250px) {
+  .west,
+  .vibes,
+  .neon,
+  .star {
+    padding: 51px 0 52px 0;
+    height: 859px;
+  }
+
+  .west__arrow,
+  .vibes__arrow,
+  .neon__arrow,
+  .star__arrow {
+    width: 906px;
+  }
+
+  .west__img,
+  .vibes__img,
+  .neon__img,
+  .star__img {
+    width: 1024px;
+    height: 534px;
+    background-size: cover;
+    margin-bottom: 70px;
+  }
+
+  .west__text,
+  .vibes__text,
+  .neon__text,
+  .star__text {
+    font-size: 20px;
+    line-height: 150%;
+    width: 782px;
+  }
+
+  .description-west,
+  .description-vibes,
+  .description-neon,
+  .description-star {
+    width: 1024px;
+    height: 472px;
+    padding-bottom: 70px;
+  }
+
+  .description-west__block,
+  .description-vibes__block,
+  .description-neon__block,
+  .description-star__block {
+    width: 904px;
+    margin: 0 auto;
+    height: 402px;
+  }
+
+  .description-west__title,
+  .description-vibes__title,
+  .description-neon__title,
+  .description-star__title {
+    font-size: 30px;
+    line-height: 40px;
+    padding-bottom: 36px;
+  }
+
+  .description-west__img,
+  .description-vibes__img,
+  .description-neon__img,
+  .description-star__img {
+    width: 461px;
+    height: 326px;
+  }
+
+  .description-west__text,
+  .description-vibes__text,
+  .description-neon__text,
+  .description-star__text {
+    font-size: 18px;
+    line-height: 28px;
+    width: 412px;
+    height: 326px;
+    padding: 87px 0;
+  }
+
+  .description-west__text-1,
+  .description-vibes__text-1,
+  .description-neon__text-1,
+  .description-star__text-1 {
+    width: 412px;
+  }
+
+  .description-west__text-2,
+  .description-vibes__text-2,
+  .description-neon__text-2,
+  .description-star__text-2 {
+    width: 412px;
+  }
+
+  .rooms {
+    width: 904px;
+    height: 248px;
+    margin: 0 auto;
+  }
+
+  .rooms__title {
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 36px;
+  }
+
+  .rooms__block {
+
+  }
+
+  .rooms__west,
+  .rooms__vibes,
+  .rooms__neon,
+  .rooms__star {
+    width: 288px;
+    height: 172px;
+    font-size: 30px;
+    line-height: 120%;
+  }
+
+}

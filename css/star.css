@@ -1,0 +1,181 @@
+.star {
+  width: 100%;
+  padding: 30px 0 50px 0;
+}
+
+.star__arrow {
+  width: 1183px;
+  height: 24px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.star__link {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.star__link::before {
+  content: "";
+  background-image: url(../img/halls/vibes/arrow.svg);
+  width: 41px;
+  height: 19px;
+  display: inline-block;
+  background-repeat: no-repeat;
+}
+
+.star__img {
+  background-image: url(../img/halls/vibes/star.jpg);
+  width: 100%;
+  height: 750px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+  background-repeat: no-repeat;
+}
+
+.star__title {
+  font-size: 90px;
+  font-weight: 700;
+  line-height: 80px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.star__text {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: center;
+  width: 1000px;
+  height: 108px;
+  margin: 0 auto;
+}
+
+.description-star {
+  width: 1180px;
+  height: 614px;
+  margin: 0 auto;
+  padding-bottom: 100px;
+}
+
+.description-star__title {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 40px;
+}
+
+.description-star__img {
+  width: 600px;
+  height: 424px;
+  background-image: url(../img/halls/star-wars.jpg);
+  background-size: cover;
+  background-position: bottom;
+  float: left;
+}
+
+.description-star__text {
+  float: right;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: left;
+  width: 500px;
+  height: 424px;
+  padding: 107px 0;
+}
+
+.description-star__text-1 {
+  width: 500px;
+  height: 85px;
+  margin-bottom: 14px;
+}
+
+.description-star__text-2 {
+  width: 500px;
+  height: 60px;
+}
+
+.rooms {
+  width: 1180px;
+  height: 319px;
+  margin: 0 auto;
+}
+
+.rooms__title {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+
+.rooms__block {
+  display: flex;
+  column-gap: 20px;
+}
+
+.rooms__west {
+  background-image: url(../img/halls/wild-west.jpg);
+  width: 380px;
+  height: 229px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rooms__vibes {
+  background-image: url(../img/halls/vibes/vibes1.jpg);
+  width: 380px;
+  height: 229px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rooms__neon {
+  background-image: url(../img/halls/neon-style.jpg);
+  width: 380px;
+  height: 229px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
