@@ -1292,8 +1292,12 @@
 
   .reservation .container {
     width: 320px;
-    height: 1519px;
+    height: 1489px;
   }
+
+  .reservation__container {
+    height: 555px;
+}
 
   .reservation__title {
     font-size: 14px;
@@ -1388,7 +1392,7 @@
   }
 
   .block-2 {
-    bottom: -25px;
+    bottom: 216px;
     left: 20px;
   }
 
@@ -1403,7 +1407,7 @@
   }
 
   .block-3 {
-    bottom: -222px;
+    bottom: 19px;
     right: 20px;
   }
 
