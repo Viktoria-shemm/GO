@@ -16,6 +16,9 @@
   line-height: 28px;
   letter-spacing: 0px;
   text-align: left;
+  height: 24px;
+  display: flex;
+  align-items: center;
 }
 
 .vibes__link::before {
@@ -98,20 +101,21 @@
 }
 
 .description-vibes__text-1 {
-    width: 500px;
-    height: 85px;
-    margin-bottom: 14px;
+  width: 500px;
+  height: 85px;
+  margin-bottom: 14px;
 }
 
 .description-vibes__text-2 {
-    width: 500px;
-    height: 60px;
+  width: 500px;
+  height: 60px;
 }
 
 .rooms {
   width: 1180px;
   height: 319px;
   margin: 0 auto;
+  margin-bottom: 32px;
 }
 
 .rooms__title {

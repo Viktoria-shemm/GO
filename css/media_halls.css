@@ -108,16 +108,13 @@
     width: 904px;
     height: 248px;
     margin: 0 auto;
+    margin-bottom: 12px;
   }
 
   .rooms__title {
     font-size: 30px;
     line-height: 40px;
     margin-bottom: 36px;
-  }
-
-  .rooms__block {
-
   }
 
   .rooms__west,
@@ -129,5 +126,316 @@
     font-size: 30px;
     line-height: 120%;
   }
+}
 
+@media (max-width: 955px) {
+  .west,
+  .vibes,
+  .neon,
+  .star {
+    padding: 42px 0 50px 0;
+    height: 681px;
+  }
+
+  .west__arrow,
+  .vibes__arrow,
+  .neon__arrow,
+  .star__arrow {
+    width: 690px;
+    margin-bottom: 21px;
+  }
+
+  .west__link,
+  .vibes__link,
+  .neon__link,
+  .star__link {
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .west__img,
+  .vibes__img,
+  .neon__img,
+  .star__img {
+    width: 768px;
+    height: 402px;
+    font-size: 60px;
+    line-height: 120%;
+    margin-bottom: 61px;
+  }
+
+  .west__title,
+  .vibes__title,
+  .neon__title,
+  .star__title {
+    font-size: 60px;
+    line-height: 120%;
+  }
+
+  .west__text,
+  .vibes__text,
+  .neon__text,
+  .star__text {
+    font-size: 16px;
+    line-height: 150%;
+    width: 688px;
+    height: 72px;
+  }
+
+  .description-west,
+  .description-vibes,
+  .description-neon,
+  .description-star {
+    width: 688px;
+    height: 452px;
+    padding-bottom: 60px;
+  }
+
+  .description-west__block,
+  .description-vibes__block,
+  .description-neon__block,
+  .description-star__block {
+    width: 688px;
+    height: 326px;
+  }
+
+  .description-west__title,
+  .description-vibes__title,
+  .description-neon__title,
+  .description-star__title {
+    font-size: 24px;
+    line-height: 36px;
+    padding-bottom: 30px;
+  }
+
+  .description-west__img,
+  .description-vibes__img,
+  .description-neon__img,
+  .description-star__img {
+    width: 329px;
+    height: 326px;
+  }
+
+  .description-west__text,
+  .description-vibes__text,
+  .description-neon__text,
+  .description-star__text {
+    font-size: 16px;
+    line-height: 28px;
+    width: 329px;
+    height: 326px;
+    padding: 73px 0 73px 16px;
+  }
+
+  .description-west__text-1,
+  .description-vibes__text-1,
+  .description-neon__text-1,
+  .description-star__text-1 {
+    width: 329px;
+  }
+
+  .description-west__text-2,
+  .description-vibes__text-2,
+  .description-neon__text-2,
+  .description-star__text-2 {
+    width: 270px;
+    height: 85px;
+  }
+
+  .rooms {
+    width: 688px;
+    height: 200px;
+  }
+
+  .rooms__title {
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 30px;
+  }
+
+  .rooms__block {
+    width: 688px;
+    height: 134px;
+    column-gap: 8px;
+  }
+
+  .rooms__west,
+  .rooms__vibes,
+  .rooms__neon,
+  .rooms__star {
+    width: 224px;
+    height: 134px;
+    font-size: 20px;
+    line-height: 120%;
+  }
+}
+
+@media (max-width: 920px) {
+  .west,
+  .vibes,
+  .neon,
+  .star {
+    padding: 49px 0 50px 0;
+    height: 688px;
+  }
+}
+
+@media (max-width: 700px) {
+  .vibes,
+  .neon,
+  .star {
+    padding: 16px 0 30px 0;
+    height: 447px;
+  }
+
+  .west {
+    padding: 16px 0 30px 0;
+    height: 518px;
+  }
+
+  .west__arrow,
+  .vibes__arrow,
+  .neon__arrow,
+  .star__arrow {
+    width: 282px;
+    margin-bottom: 11px;
+  }
+
+  .west__link,
+  .vibes__link,
+  .neon__link,
+  .star__link {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .west__link::before,
+  .vibes__link::before,
+  .neon__link::before,
+  .star__link::before {
+    background-image: url(../img/halls/vibes/arrow_320px.svg);
+    width: 23px;
+    height: 24px;
+    background-position: left;
+  }
+
+  .west__img,
+  .vibes__img,
+  .neon__img,
+  .star__img {
+    width: 320px;
+    height: 168px;
+    margin-bottom: 31px;
+  }
+
+  .west__title,
+  .vibes__title,
+  .neon__title,
+  .star__title {
+    font-size: 30px;
+    line-height: 120%;
+  }
+
+  .west__text,
+  .vibes__text,
+  .neon__text,
+  .star__text {
+    font-size: 16px;
+    line-height: 150%;
+    width: 280px;
+    height: 168px;
+  }
+
+  .description-west,
+  .description-vibes {
+    width: 280px;
+    height: 353px;
+    padding-bottom: 25px;
+  }
+
+  .description-star,
+  .description-neon {
+    width: 280px;
+    height: 380px;
+    padding-bottom: 25px;
+  }
+
+  .description-west__block,
+  .description-vibes__block,
+  .description-neon__block,
+  .description-star__block {
+    width: 280px;
+    height: 300px;
+  }
+
+  .description-west__title,
+  .description-vibes__title,
+  .description-neon__title,
+  .description-star__title {
+    font-size: 14px;
+    line-height: 18px;
+    padding-bottom: 15px;
+  }
+
+  .description-west__img,
+  .description-vibes__img,
+  .description-neon__img,
+  .description-star__img {
+    width: 280px;
+    height: 180px;
+  }
+
+  .description-west__text,
+  .description-vibes__text,
+  .description-neon__text,
+  .description-star__text {
+    font-size: 12px;
+    line-height: 16px;
+    width: 280px;
+    height: 125px;
+    padding: 15px 0;
+  }
+
+  .description-west__text-1,
+  .description-vibes__text-1,
+  .description-neon__text-1,
+  .description-star__text-1 {
+    width: 280px;
+    height: 49px;
+  }
+
+  .description-west__text-2,
+  .description-vibes__text-2,
+  .description-neon__text-2,
+  .description-star__text-2 {
+    width: 280px;
+  }
+
+  .rooms {
+    width: 280px;
+    height: 464px;
+    margin-bottom: 6px;
+  }
+
+  .rooms__title {
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 15px;
+  }
+
+  .rooms__block {
+    width: 280px;
+    height: 430px;
+    row-gap: 5px;
+    flex-direction: column-reverse;
+  }
+
+  .rooms__west,
+  .rooms__vibes,
+  .rooms__neon,
+  .rooms__star {
+    width: 280px;
+    height: 140px;
+    background-position: center;
+  }
 }

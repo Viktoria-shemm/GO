@@ -17,6 +17,9 @@
   line-height: 28px;
   letter-spacing: 0px;
   text-align: left;
+  height: 24px;
+  display: flex;
+  align-items: center;
 }
 
 .west__link::before {
@@ -113,6 +116,7 @@
   width: 1180px;
   height: 319px;
   margin: 0 auto;
+  margin-bottom: 32px;
 }
 
 .rooms__title {

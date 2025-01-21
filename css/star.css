@@ -1,13 +1,13 @@
 .star {
   width: 100%;
-  padding: 30px 0 50px 0;
+  padding: 58px 0 102px 0;
 }
 
 .star__arrow {
   width: 1183px;
   height: 24px;
   margin: 0 auto;
-  margin-bottom: 20px;
+  margin-bottom: 22px;
 }
 
 .star__link {
@@ -16,6 +16,9 @@
   line-height: 28px;
   letter-spacing: 0px;
   text-align: left;
+  height: 24px;
+  display: flex;
+  align-items: center;
 }
 
 .star__link::before {
@@ -73,7 +76,7 @@
   letter-spacing: 0%;
   text-align: center;
   text-transform: uppercase;
-  padding-bottom: 40px;
+  padding-bottom: 38px;
 }
 
 .description-star__img {
@@ -112,6 +115,7 @@
   width: 1180px;
   height: 319px;
   margin: 0 auto;
+  margin-bottom: 32px;
 }
 
 .rooms__title {
@@ -121,7 +125,7 @@
   letter-spacing: 0%;
   text-align: center;
   text-transform: uppercase;
-  margin-bottom: 40px;
+  margin-bottom: 38px;
 }
 
 .rooms__block {
