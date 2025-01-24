@@ -1,14 +1,8 @@
 .footer {
-  width: 100%;
   min-height: 629px;
   padding-top: 100px;
   position: relative;
   background: linear-gradient(180deg, rgb(27, 26, 27), rgb(55, 10, 55) 100%);
-}
-
-.footer .container {
-  width: 1180px;
-  margin: 0 auto;
 }
 
 .contacts__contact-us {
@@ -122,9 +116,7 @@ p {
 .footer__flex {
   display: flex;
   justify-content: space-between;
-  width: 1180px;
   height: 210px;
-  margin: 0 auto;
   padding-top: 146px;
 }
 

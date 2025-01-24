@@ -1,4 +1,17 @@
 @media (max-width: 1250px) {
+  .container {
+    max-width: 904px;
+  }
+
+  .header {
+    height: 87px;
+    padding-top: 27px;
+  }
+
+  .header__block {
+    column-gap: 80px;
+  }
+
   .header__logo {
     background-image: url(../img/header/logo_1024px.svg);
     background-repeat: no-repeat;
@@ -15,11 +28,6 @@
     width: 229px;
     height: 45px;
     font-size: 18px;
-  }
-
-  .header__container {
-    width: 904px;
-    height: 88px;
   }
 
   .content__title {
@@ -44,7 +52,7 @@
     font-size: 26px;
   }
 
-  .content__button {
+  .content__button-1 {
     width: 296px;
     height: 64px;
     font-size: 22px;
@@ -52,27 +60,40 @@
     bottom: 64px;
   }
 
-  .content__button-1 {
+  .content__button-2 {
     width: 67px;
     height: 67px;
     background-size: contain;
-    left: 418px;
     bottom: 45px;
   }
 
   .content__title::after {
     content: url(../img/content/man_1024px.png);
-    top: 90px;
+    top: 79px;
   }
 
   .content {
-    width: 904px;
     min-height: 609px;
     padding-top: 12px;
   }
 
-  .content__text--left {
-    bottom: 209px;
+  .content__block-1 {
+    width: 904px;
+  }
+
+  .content__block-2 {
+    width: 904px;
+    height: 223px;
+    padding-top: 21px;
+    margin-bottom: 54px;
+  }
+
+  .content__block-3 {
+    padding-left: 39px;
+  }
+
+  .content__text-1 {
+    margin-right: 37px;
   }
 
   .content__text {
@@ -81,11 +102,6 @@
 
   .content__span-1 {
     line-height: 113px;
-  }
-
-  .content__text--right {
-    left: 208px;
-    bottom: 209px;
   }
 
   .content__span-2 {
@@ -112,7 +128,6 @@
   }
 
   .present {
-    width: 904px;
     height: 659px;
     padding-top: 80px;
   }
@@ -159,7 +174,6 @@
   }
 
   .halls {
-    width: 904px;
     height: 737px;
     padding-top: 40px;
     padding-bottom: 72px;
@@ -184,10 +198,16 @@
   }
 
   .reservation {
-    width: 100%;
     height: 1007px;
     min-height: unset;
     padding-top: 54px;
+  }
+
+  .reservation__container {
+    height: 162px;
+    width: 905px;
+    grid-template-columns: 300px 300px 304px;
+    grid-template-rows: 160px;
   }
 
   .reservation__button {
@@ -195,8 +215,12 @@
     height: 50px;
     font-size: 18px;
     line-height: 24px;
-    right: 536px;
-    bottom: 18px;
+  }
+
+  .button {
+    width: 904px;
+    height: 58px;
+    padding-top: 8px;
   }
 
   .reservation__legend {
@@ -233,18 +257,18 @@
   }
 
   .block-1 {
-    left: 0px;
-    top: 22px;
+    height: 162px;
+    width: 300px;
+    padding-left: 0px;
+    padding-top: 22px;
   }
 
-  .block-2 {
-    bottom: 58px;
-    left: 350px;
-  }
-
+  .block-2,
   .block-3 {
-    bottom: 58px;
-    right: 0px;
+    padding-left: 50px;
+    padding-top: 6px;
+    height: 162px;
+    width: 301px;
   }
 
   .reservation__input--name,
@@ -258,7 +282,6 @@
   }
 
   .desc {
-    width: 904px;
     min-height: 574px;
     padding-top: 65px;
   }
@@ -339,9 +362,9 @@
   .feedback__text {
     font-size: 18px;
     line-height: 26px;
-    width: 515px;
-    height: 105px;
-    top: 33px;
+    width: 527px;
+    height: 124px;
+    padding-top: 20px;
   }
 
   .feedback__img,
@@ -356,9 +379,13 @@
   }
 
   .feedback {
-    width: 904px;
     min-height: 803px;
     padding-top: 70px;
+  }
+
+  .feedback__figure {
+    height: 218px;
+    width: 190px;
   }
 
   .feedback__container {
@@ -384,7 +411,7 @@
   }
 
   .questions__item {
-    width: 904px;
+    width: 908px;
     height: 69px;
     font-size: 20px;
     line-height: 24px;
@@ -422,7 +449,6 @@
   }
 
   .questions {
-    width: 904px;
     min-height: 393px;
     padding-top: 70px;
   }
@@ -505,29 +531,30 @@
   }
 
   .footer__flex {
-    width: 904px;
-    height: 149px;
-    padding-top: 94px;
+    height: 137px;
+    padding-top: 81px;
   }
 
   .social__item {
     padding-right: 23px;
   }
-
-  .footer .container {
-    width: 904px;
-    margin: 0 auto;
-  }
-
-  .reservation .container {
-    width: 904px;
-    margin: 0 auto;
-  }
-
 }
 
 @media (max-width: 930px) {
-  .navigation {
+  .container {
+    max-width: 688px;
+  }
+
+  .header {
+    height: 81px;
+    padding-top: 13px;
+  }
+
+  .header__block {
+    column-gap: 159px;
+  }
+
+  .navigation__list {
     display: none;
   }
 
@@ -550,12 +577,6 @@
     background-image: url(../img/header/menu_focus.svg);
   }
 
-  .header__container {
-    width: 688px;
-    height: 81px;
-    padding-top: 9px;
-  }
-
   .header__button {
     border-radius: 8px;
   }
@@ -566,6 +587,21 @@
     width: unset;
     height: unset;
     letter-spacing: -8px;
+  }
+
+  .content__block-1 {
+    width: 689px;
+  }
+
+  .content__block-2 {
+    width: 689px;
+    height: 169px;
+    padding-top: 51px;
+    margin-bottom: 88px;
+  }
+
+  .content__block-3 {
+    padding-left: 0px;
   }
 
   .content__subtitle {
@@ -581,10 +617,10 @@
     line-height: 71px;
   }
 
-  .content__text--left {
+  .content__text-1 {
     font-size: 16px;
     line-height: 18px;
-    bottom: 249px;
+    margin-right: 28px;
   }
 
   .content__span-2 {
@@ -593,21 +629,17 @@
     line-height: 71px;
   }
 
-  .content__text--right {
+  .content__text-2 {
     font-size: 16px;
     line-height: 18px;
-    left: 135px;
-    bottom: 249px;
   }
 
-  .content__button {
+  .content__button-1 {
     width: 214px;
     height: 46px;
     border-radius: 4px;
     font-size: 16px;
     line-height: 24px;
-    left: 0px;
-    bottom: 104px;
   }
 
   .content__title::after {
@@ -615,15 +647,14 @@
     background-image: url(../img/content/man_768px.png);
     width: 409px;
     height: 479px;
-    top: 77px;
+    top: 58px;
   }
 
-  .content__button-1 {
+  .content__button-2 {
     display: none;
   }
 
   .content {
-    width: 688px;
     min-height: 556px;
     padding-top: 19px;
   }
@@ -675,7 +706,6 @@
   }
 
   .present {
-    width: 688px;
     min-height: 840px;
     padding-top: 80px;
   }
@@ -723,7 +753,6 @@
   }
 
   .halls {
-    width: 688px;
     height: 593px;
     padding-top: 42px;
     padding-bottom: 62px;
@@ -784,7 +813,6 @@
   }
 
   .reservation .container {
-    width: 688px;
     height: 1256px;
   }
 
@@ -835,14 +863,22 @@
 
   .reservation__container {
     height: 314px;
+    width: 688px;
+    grid-template-columns: 280px 300px;
+    grid-template-rows: 73px 205px;
+    grid-template-areas:
+      "block-1 block-1"
+      "block-2 block-3";
+    gap: 43px 108px;
   }
 
   .block-1 {
     display: grid;
     grid-template-columns: 148px 240px 300px;
-    height: 52px;
+    height: 74px;
     width: 688px;
     gap: 0;
+    grid-area: block-1;
   }
 
   .reservation__input--name,
@@ -856,13 +892,15 @@
   }
 
   .block-2 {
-    bottom: 36px;
-    left: 0px;
+    grid-area: block-2;
+    padding-left: 0;
+    width: 282px;
   }
 
   .block-3 {
-    bottom: 36px;
-    right: 0px;
+    grid-area: block-3;
+    padding-left: 0;
+    width: 282px;
   }
 
   .reservation__button {
@@ -870,13 +908,12 @@
     height: 60px;
     font-size: 22px;
     line-height: 28px;
-    right: 0px;
-    bottom: 8px;
   }
 
   .button {
     width: 688px;
-    height: 80px;
+    height: 72px;
+    padding-top: 12px;
   }
 
   .desc__title {
@@ -925,7 +962,6 @@
   }
 
   .desc {
-    width: 688px;
     min-height: 725px;
     padding-top: 60px;
   }
@@ -982,32 +1018,37 @@
     font-size: 16px;
     line-height: 22px;
     width: 393px;
-    height: 94px;
-    right: 64px;
+    height: 123px;
+    padding-top: 32px;
+    padding-left: 14px;
   }
 
   .feedback__figcaption {
     font-size: 14px;
     line-height: 20px;
     padding-top: 18px;
-    padding-right: 68px;
+    padding-right: 0px;
+    width: 150px;
+  }
+
+  .feedback__figure {
+    height: 199px;
+    width: 154px;
   }
 
   .feedback {
-    width: 688px;
     min-height: 700px;
     padding-top: 50px;
   }
 
   .feedback__container {
-    width: 688px;
+    width: 610px;
     height: 219px;
     margin-bottom: 2px;
     padding-left: 63px;
   }
 
   .questions {
-    width: 688px;
     min-height: 383px;
     padding-top: 30px;
   }
@@ -1037,6 +1078,7 @@
   }
 
   .contacts__title {
+    width: 688px;
     font-size: 24px;
     line-height: 36px;
     padding-bottom: 30px;
@@ -1054,11 +1096,6 @@
 
   .social__list {
     text-align: center;
-  }
-
-  .footer .container,
-  .contacts {
-    width: 688px;
   }
 
   .map {
@@ -1120,17 +1157,19 @@
   }
 
   .footer__flex {
-    width: 688px;
     height: 120px;
     padding-top: 76px;
   }
 }
 
 @media (max-width: 700px) {
-  .header__container {
-    width: 280px;
+  .container {
+    max-width: 280px;
+  }
+
+  .header {
     height: 62px;
-    padding-top: 19px;
+    padding-top: 20px;
   }
 
   .header__menu {
@@ -1144,6 +1183,11 @@
     width: 66px;
     height: 42px;
     background-size: contain;
+  }
+
+  .header__block {
+    column-gap: 175px;
+    align-items: center;
   }
 
   .header__button {
@@ -1168,10 +1212,10 @@
     line-height: 37px;
   }
 
-  .content__text--left {
+  .content__text-1 {
     font-size: 10px;
     line-height: 11px;
-    bottom: 82px;
+    margin-right: 16px;
   }
 
   .content__span-2 {
@@ -1180,14 +1224,12 @@
     height: 29px;
   }
 
-  .content__text--right {
+  .content__text-2 {
     font-size: 10px;
     line-height: 11px;
-    left: 85px;
-    bottom: 82px;
   }
 
-  .content__button {
+  .content__button-1 {
     width: 117px;
     height: 27px;
     border-radius: 4px;
@@ -1201,17 +1243,26 @@
     height: 181px;
     background-size: cover;
     background-repeat: no-repeat;
-    top: 43px;
+    top: 24px;
     left: 120px;
   }
 
   .content {
-    width: 280px;
     min-height: 226px;
   }
 
-  .present {
+  .content__block-1 {
     width: 280px;
+  }
+
+  .content__block-2 {
+    width: 280px;
+    height: 75px;
+    padding-top: 10px;
+    margin-bottom: 24px;
+  }
+
+  .present {
     min-height: 296px;
     height: unset;
     padding-top: 44px;
@@ -1260,7 +1311,6 @@
   }
 
   .halls {
-    width: 280px;
     height: 795px;
     padding: 30px 0;
   }
@@ -1297,7 +1347,15 @@
 
   .reservation__container {
     height: 555px;
-}
+    width: 280px;
+    grid-template-columns: 320px;
+    grid-template-rows: 140px 199px 197px;
+    grid-template-areas:
+      "block-1"
+      "block-2"
+      "block-3";
+    row-gap: 0px;
+  }
 
   .reservation__title {
     font-size: 14px;
@@ -1332,35 +1390,34 @@
 
   .reservation__block-1 {
     flex-flow: row wrap;
-    width: 320px;
+    width: 280px;
     margin-bottom: 30px;
     justify-content: space-evenly;
-    gap: 14px 0px;
+    gap: 14px 19px;
   }
 
   .reservation__block-2 {
     min-height: 635px;
-    width: 320px;
+    width: 280px;
     display: flex;
     flex-direction: column;
   }
 
   .reservation__console {
     margin-bottom: 25px;
-    padding-left: 20px;
+    padding-left: 0px;
     row-gap: 15px;
   }
 
   .reservation__game {
-    padding-left: 20px;
+    padding: 0px;
     row-gap: 21px;
-    padding-bottom: 0px;
     margin-bottom: 22px;
   }
 
   .reservation__additionally {
     row-gap: 23px;
-    padding: 1px 0px 0px 20px;
+    padding: 0px;
     height: 115px;
   }
 
@@ -1377,7 +1434,8 @@
     flex-flow: row wrap;
     width: 280px;
     gap: 15px 12px;
-    left: 20px;
+    padding-left: 0px;
+    height: 141px;
   }
 
   .block-1 .reservation__input--big {
@@ -1391,9 +1449,12 @@
     line-height: 18px;
   }
 
-  .block-2 {
-    bottom: 216px;
-    left: 20px;
+  .block-2,
+  .block-3 {
+    padding-left: 0px;
+    padding-top: 42px;
+    height: 198px;
+    width: 280px;
   }
 
   .reservation__input--name,
@@ -1406,29 +1467,21 @@
     width: 280px;
   }
 
-  .block-3 {
-    bottom: 19px;
-    right: 20px;
-  }
-
   .reservation__button {
     width: 280px;
     height: 60px;
     border-radius: 4px;
     font-size: 18px;
     line-height: 26px;
-    right: 20px;
-    bottom: 0;
-    top: 23px;
   }
 
   .button {
-    width: 320px;
-    height: 100px;
+    width: 280px;
+    height: 83px;
+    padding-top: 23px;
   }
 
   .desc {
-    width: 280px;
     min-height: 655px;
     padding-top: 0px;
   }
@@ -1521,7 +1574,6 @@
   }
 
   .feedback {
-    width: 280px;
     height: 662px;
     padding-top: 25px;
   }
@@ -1545,7 +1597,8 @@
   .feedback__figcaption {
     font-size: 14px;
     line-height: 20px;
-    padding: 6px 0 0 56px;
+    padding: 0;
+    height: 24px;
   }
 
   .feedback__text {
@@ -1553,21 +1606,25 @@
     line-height: 16px;
     width: 280px;
     height: 66px;
-    top: 132px;
-    right: 0;
+    padding: 0;
   }
 
   .feedback__figure {
     width: 280px;
     height: 120px;
     text-align: center;
+    row-gap: 10px;
+    align-items: center;
   }
 
   .feedback__container {
     width: 280px;
-    height: 219px;
+    height: 196px;
     margin-bottom: 0px;
     padding-left: 0px;
+    flex-direction: column;
+    row-gap: 12px;
+    margin-bottom: 22px;
   }
 
   .feedback__img {
@@ -1577,7 +1634,6 @@
   }
 
   .questions {
-    width: 280px;
     min-height: 247px;
     padding-top: 17px;
   }
@@ -1618,12 +1674,8 @@
     padding-top: 30px;
   }
 
-  .footer .container,
-  .contacts {
-    width: 280px;
-  }
-
   .contacts__title {
+    width: 280px;
     font-size: 14px;
     line-height: 18px;
     padding-bottom: 15px;
@@ -1642,7 +1694,6 @@
   }
 
   .footer__flex {
-    width: 280px;
     line-height: 19px;
     flex-direction: column;
     padding-top: 60px;

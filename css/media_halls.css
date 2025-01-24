@@ -1,4 +1,4 @@
-@media (max-width: 1920px) {
+/* @media (max-width: 1920px) {
   .west__img,
   .vibes__img,
   .neon__img,
@@ -7,7 +7,7 @@
     margin-left: auto;
     margin-right: auto;
   }
-}
+} */
 
 @media (max-width: 1250px) {
   .west,
@@ -29,7 +29,6 @@
   .vibes__img,
   .neon__img,
   .star__img {
-    width: 1024px;
     height: 534px;
     background-size: cover;
     margin-bottom: 70px;
@@ -48,7 +47,6 @@
   .description-vibes,
   .description-neon,
   .description-star {
-    width: 1024px;
     height: 472px;
     padding-bottom: 70px;
   }
@@ -105,7 +103,6 @@
   }
 
   .rooms {
-    width: 904px;
     height: 248px;
     margin: 0 auto;
     margin-bottom: 12px;
@@ -129,6 +126,130 @@
 }
 
 @media (max-width: 955px) {
+  .container {
+    max-width: 688px;
+  }
+
+  .header {
+    height: 81px;
+    padding-top: 13px;
+  }
+
+  .header__block {
+    column-gap: 159px;
+  }
+
+  .navigation__list {
+    display: none;
+  }
+
+  .header__menu {
+    display: inline-block;
+    background-image: url(../img/header/menu.svg);
+    width: 54px;
+    height: 29px;
+  }
+
+  .header__menu:hover {
+    background-image: url(../img/header/menu_hover.svg);
+  }
+
+  .header__menu:active {
+    background-image: url(../img/header/menu_active.svg);
+  }
+
+  .header__menu:focus {
+    background-image: url(../img/header/menu_focus.svg);
+  }
+
+  .header__button {
+    border-radius: 8px;
+  }
+
+  .contacts__title {
+    width: 688px;
+    font-size: 24px;
+    line-height: 36px;
+    padding-bottom: 30px;
+  }
+
+  .contacts__flex {
+    display: inline-block;
+  }
+
+  .contacts a,
+  p {
+    text-align: center;
+    position: relative;
+  }
+
+  .social__list {
+    text-align: center;
+  }
+
+  .map {
+    width: 688px;
+    height: 337px;
+    background-image: url(../img/footer/map_768px.jpg);
+  }
+
+  .contacts__text::before {
+    float: unset;
+    margin: unset;
+    position: absolute;
+    left: 252px;
+    bottom: 25px;
+  }
+
+  .contacts__tel::before {
+    float: unset;
+    margin: unset;
+    position: absolute;
+    left: 206px;
+    top: 1px;
+  }
+
+  .contacts__mail::before {
+    float: unset;
+    margin: unset;
+    position: absolute;
+    left: 172px;
+    top: 1px;
+  }
+
+  .footer {
+    padding-top: 69px;
+  }
+
+  .contacts__contact-us {
+    margin-top: 0px;
+    margin-bottom: 27px;
+  }
+
+  .contacts__tel {
+    padding-left: 25px;
+    margin-bottom: 27px;
+  }
+
+  .contacts__mail {
+    margin-top: 0px;
+  }
+
+  .social {
+    margin-top: 0px;
+    padding-left: 22px;
+    margin-bottom: 21px;
+  }
+
+  .contacts__address {
+    margin-bottom: 32px;
+  }
+
+  .footer__flex {
+    height: 120px;
+    padding-top: 76px;
+  }
+
   .west,
   .vibes,
   .neon,
@@ -157,7 +278,6 @@
   .vibes__img,
   .neon__img,
   .star__img {
-    width: 768px;
     height: 402px;
     font-size: 60px;
     line-height: 120%;
@@ -186,7 +306,6 @@
   .description-vibes,
   .description-neon,
   .description-star {
-    width: 688px;
     height: 452px;
     padding-bottom: 60px;
   }
@@ -243,7 +362,6 @@
   }
 
   .rooms {
-    width: 688px;
     height: 200px;
   }
 
@@ -281,6 +399,37 @@
 }
 
 @media (max-width: 700px) {
+  .container {
+    max-width: 280px;
+  }
+
+  .header {
+    height: 62px;
+    padding-top: 20px;
+  }
+
+  .header__menu {
+    width: 39px;
+    height: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .header__logo {
+    width: 66px;
+    height: 42px;
+    background-size: contain;
+  }
+
+  .header__block {
+    column-gap: 175px;
+    align-items: center;
+  }
+
+  .header__button {
+    display: none;
+  }
+
   .vibes,
   .neon,
   .star {
@@ -323,7 +472,6 @@
   .vibes__img,
   .neon__img,
   .star__img {
-    width: 320px;
     height: 168px;
     margin-bottom: 31px;
   }
@@ -348,14 +496,12 @@
 
   .description-west,
   .description-vibes {
-    width: 280px;
     height: 353px;
     padding-bottom: 25px;
   }
 
   .description-star,
   .description-neon {
-    width: 280px;
     height: 380px;
     padding-bottom: 25px;
   }
@@ -412,7 +558,6 @@
   }
 
   .rooms {
-    width: 280px;
     height: 464px;
     margin-bottom: 6px;
   }
@@ -437,5 +582,97 @@
     width: 280px;
     height: 140px;
     background-position: center;
+  }
+
+  .footer {
+    padding-top: 30px;
+  }
+
+  .contacts__title {
+    width: 280px;
+    font-size: 14px;
+    line-height: 18px;
+    padding-bottom: 15px;
+  }
+
+  .contacts a,
+  p {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .map {
+    width: 280px;
+    height: 194px;
+    background-image: url(../img/footer/map_320px.jpg);
+  }
+
+  .footer__flex {
+    line-height: 19px;
+    flex-direction: column;
+    padding-top: 60px;
+    align-items: center;
+    row-gap: 17px;
+    height: 134px;
+  }
+
+  .footer__text {
+    font-size: 12px;
+  }
+
+  .footer__block-2 {
+    text-align: center;
+  }
+
+  .contacts__text::before {
+    content: url(../img/footer/location_320px.svg);
+    left: 79px;
+    bottom: 15px;
+  }
+
+  .contacts__tel::before {
+    content: url(../img/footer/phone_320px.svg);
+    left: 58px;
+    top: -2px;
+    width: 20px;
+    height: 20px;
+  }
+
+  .contacts__mail::before {
+    content: url(../img/footer/mail_320px.svg);
+    left: 77px;
+    bottom: 12px;
+    left: 36px;
+    top: -2px;
+    width: 20px;
+    height: 20px;
+  }
+
+  .contacts__address {
+    margin-bottom: 11px;
+  }
+
+  .contacts__tel {
+    padding-left: 14px;
+    margin-bottom: 10px;
+  }
+
+  .social__img {
+    width: 28.8px;
+    height: 28.8px;
+  }
+
+  .contacts__contact-us {
+    margin-bottom: 11px;
+  }
+
+  .social {
+    margin-top: 0px;
+    padding-left: 14px;
+    margin-bottom: 15px;
+  }
+
+  .social__item {
+    padding-right: 16px;
   }
 }

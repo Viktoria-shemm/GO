@@ -1,5 +1,4 @@
 .west {
-  width: 100%;
   height: 1198px;
   padding: 60px 0 60px 0;
 }
@@ -40,6 +39,7 @@
   align-items: center;
   margin-bottom: 100px;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .west__title {
@@ -64,10 +64,13 @@
 }
 
 .description-west {
-  width: 1180px;
   height: 614px;
   margin: 0 auto;
   padding-bottom: 100px;
+}
+
+.description-west__block {
+  overflow: hidden;
 }
 
 .description-west__title {
@@ -113,7 +116,6 @@
 }
 
 .rooms {
-  width: 1180px;
   height: 319px;
   margin: 0 auto;
   margin-bottom: 32px;
@@ -185,4 +187,10 @@
   justify-content: center;
 }
 
-
+.rooms__block a {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

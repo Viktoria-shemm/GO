@@ -1,10 +1,9 @@
 .content {
-  width: 1180px;
-  margin: 0 auto;
+  width: 100%;
   min-height: 869px;
   padding-top: 46px;
-  position: relative;
   z-index: 0;
+  display: flex;
 }
 
 .content__title {
@@ -15,16 +14,14 @@
   line-height: 150px;
   letter-spacing: -15px;
   text-transform: uppercase;
-  float: left;
-  margin: 0;
 }
 
 .content__title::after {
   content: url(../img/content/man.png);
   z-index: 1;
   position: absolute;
-  right: 0;
-  top: 107px;
+  right: 0px;
+  top: 61px;
 }
 
 .content__subtitle {
@@ -32,12 +29,11 @@
   font-weight: 400;
   line-height: 50px;
   text-align: left;
-  float: left;
   padding-left: 100px;
   padding-top: 1px;
 }
 
-.content__button {
+.content__button-1 {
   width: 374px;
   height: 80px;
   background-color: var(--main-one-color);
@@ -47,44 +43,41 @@
   line-height: 30px;
   text-transform: uppercase;
   box-shadow: 0 0 20px var(--main-one-color);
-  position: absolute;
-  left: 0;
-  bottom: 154px;
   transition: background-color 2s;
 }
 
-.content__button:hover {
+.content__button-1:hover {
   background-color: #840aa3;
 }
 
-.content__button:focus {
+.content__button-1:focus {
   background-color: #840aa3;
 }
 
-.content__button:active {
+.content__button-1:active {
   background-color: #640aa3;
 }
 
-.content__button-1 {
+.content__button-2 {
   background-image: url(../img/content/down.png);
   width: 97px;
   height: 97px;
   position: absolute;
-  left: 539px;
+  left: 50%;
   bottom: 90px;
   z-index: 2;
   transition: 2s;
 }
 
-.content__button-1:hover {
+.content__button-2:hover {
   background-image: url(../img/content/down_hover.png);
 }
 
-.content__button-1:active {
+.content__button-2:active {
   background-image: url(../img/content/down_active.png);
 }
 
-.content__button-1:focus {
+.content__button-2:focus {
   background-color: rgba(196, 196, 196, 0);
   outline: 1px solid var(--main-three-color);
 }
@@ -93,6 +86,7 @@
   font-weight: 400;
   line-height: 34px;
   text-align: center;
+  display: inline-block;
 }
 
 .content__span-1 {
@@ -111,14 +105,17 @@
   height: 116px;
 }
 
-.content__text--left {
-  position: absolute;
-  left: 0;
-  bottom: 384px;
+.content__text-1 {
+  margin-right: 39px;
 }
 
-.content__text--right {
-  position: absolute;
-  left: 236px;
-  bottom: 384px;
+.content__block-1 {
+  width: 1180px;
+}
+
+.content__block-2 {
+  width: 1180px;
+  height: 270px;
+  padding-top: 28px;
+  margin-bottom: 118px;
 }

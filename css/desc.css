@@ -1,8 +1,7 @@
 .desc {
-  width: 1180px;
+  width: 100%;
   min-height: 792px;
   padding-top: 100px;
-  margin: 0 auto;
 }
 
 .desc__block {

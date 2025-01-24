@@ -1,7 +1,5 @@
 .feedback {
-  width: 980px;
   min-height: 1153px;
-  margin: 0 auto;
   padding-top: 100px;
 }
 
@@ -15,27 +13,34 @@
 }
 
 .feedback__container {
-  width: 980px;
+  width: 1080px;
   height: 319px;
   position: relative;
   margin-bottom: 50px;
+  display: flex;
+  padding-left: 100px;
 }
 
 .feedback__container:last-child {
   margin-bottom: 0;
 }
 
+.feedback__figure {
+  height: 319px;
+  width: 280px;
+  display: flex;
+  flex-direction: column;
+}
+
 .feedback__text {
-  width: 680px;
-  height: 88px;
+  width: 700px;
+  height: 150px;
   font-size: 20px;
   font-weight: 400;
   line-height: 28px;
   text-align: left;
-  position: absolute;
-  top: 52px;
-  bottom: 179px;
-  right: 0;
+  padding-left: 20px;
+  padding-top: 52px;
 }
 
 .feedback__img {
@@ -53,7 +58,7 @@
   );
   position: absolute;
   top: 0;
-  left: 0;
+  left: 100px;
   z-index: 1;
 }
 

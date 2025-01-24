@@ -1,5 +1,5 @@
-@import url(global\ style.css);
 @import url(normalize.css);
+@import url(basic-styles.css);
 @import url(page.css);
 @import url(content.css);
 @import url(desc.css);
@@ -16,7 +16,7 @@
 @import url(star.css);
 @import url(neon.css);
 @import url(west.css);
-@import url(media_halls.css);
+
 
 
 

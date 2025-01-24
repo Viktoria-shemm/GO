@@ -91,6 +91,7 @@ address {
   */
 
 .container {
-  max-width: 1240px;
+  max-width: 1180px;
   margin: 0 auto;
+  position: relative;
 }

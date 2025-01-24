@@ -1,14 +1,8 @@
 .reservation {
-  width: 100%;
   min-height: 1114px;
   padding-top: 80px;
   background-color: var(--main-two-color);
   position: relative;
-}
-
-.reservation .container {
-  width: 1180px;
-  margin: 0 auto;
 }
 
 .reservation__title {
@@ -103,6 +97,10 @@
   outline: 1px solid var(--main-three-color);
 }
 
+.reservation__block-3 {
+  height: 258px;
+}
+
 .reservation__input--big {
   width: 300px;
   height: 52px;
@@ -131,18 +129,21 @@
 
 .reservation__container {
   position: relative;
-  height: 220px;
+  height: 161px;
+  display: grid;
+  width: 180px;
+  grid-template-columns: 400px 330px 350px;
+  grid-template-rows: 160px;
 }
 
 .block-1 {
   display: inline-flex;
   flex-flow: row wrap;
-  height: 140px;
-  width: 300px;
+  height: 159px;
+  width: 400px;
   gap: 36px 32px;
-  position: absolute;
-  left: 100px;
-  top: 20px;
+  padding-left: 100px;
+  padding-top: 19px;
 }
 
 .block-1 .reservation__input--big {
@@ -154,22 +155,12 @@
   text-align: left;
 }
 
-.block-2 {
+.block-2, .block-3 {
   display: inline-flex;
   flex-flow: column wrap;
   gap: 20px 0;
-  position: absolute;
-  bottom: 60px;
-  left: 450px;
-}
-
-.block-3 {
-  display: inline-flex;
-  flex-flow: column wrap;
-  gap: 20px 0;
-  position: absolute;
-  bottom: 60px;
-  right: 100px;
+  padding-left: 50px;
+  padding-top: 4px;
 }
 
 .reservation__button {
@@ -183,9 +174,6 @@
   text-align: center;
   text-transform: uppercase;
   border-radius: 10px;
-  position: absolute;
-  right: 360px;
-  bottom: 20px;
   transition: background-color 2s;
 }
 
@@ -249,15 +237,17 @@ fieldset {
 
 .button {
   position: relative;
-  width: 1440px;
-  height: 60px;
+  width: 1080px;
+  height: 90px;
+  display: flex;
+  justify-content: end;
+  padding-top: 10px;
 }
 
 .block-2 .reservation__label {
   font-size: 14px;
   font-weight: 700;
   line-height: 16px;
-
 }
 
 .block-3 .reservation__label {

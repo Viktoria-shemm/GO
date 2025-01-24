@@ -1,11 +1,12 @@
-.header__container {
-  width: 1180px;
+.header {
   height: 100px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 0 auto;
   padding-top: 26px;
+}
+
+.header__block {
+  display: flex;
+  column-gap: 98px;
+  align-items: end;
 }
 
 .header__logo {
@@ -32,6 +33,7 @@
 
 .navigation__link {
   transition: 2s;
+  
 }
 
 .navigation__link:hover {
