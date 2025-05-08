@@ -11,11 +11,13 @@
 @import url(questions.css);
 @import url(reservation.css);
 @import url(var.css);
-@import url(media.css);
+@import url(modal-window.css);
+@import url(menu.css);
 @import url(vibes.css);
 @import url(star.css);
 @import url(neon.css);
 @import url(west.css);
+@import url(media.css);
 
 
 
