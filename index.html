@@ -7,6 +7,13 @@
     <link rel="icon" type="image/svg+xml" href="img/icon.svg">
     <link rel="icon" type="image/png" href="img/logo.png">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.js" defer></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js" defer></script>
+    <script src="https://unpkg.com/just-validate@latest/dist/just-validate.production.min.js" defer></script>
+    <script src="js/inputmask.min.js" defer></script>
     <script src="js/index.js" defer></script>
   </head>
 
@@ -181,39 +188,51 @@
       <section class="feedback" id="feedback">
         <div class="container">
           <h2 class="feedback__title">ОТЗЫВЫ ПОСЕТИТЕЛЕЙ</h2>
-          <div class="feedback__container">
-            <figure class="feedback__figure">              
-              <img src="./img/feedback/Max-Samoilov.png" alt="Макс Самойлов" class="feedback__img">
-              <div class="feedback__gradient"></div>
-              <figcaption class="feedback__figcaption">Макс Самойлов</figcaption>
-            </figure>
-            <p class="feedback__text">
-              Отмечали здесь день рождения с компанией друзей, все было очень круто!
-              VR очки это просто бомба, никогда еще я не был в таком полном игровом
-              погружении. Сервис на высоте!
-            </p>
-          </div>
-          <div class="feedback__container">
-            <figure class="feedback__figure">
-              <img src="./img/feedback/Oksana-Grigorieva.png" alt="Оксана Григорьева" class="feedback__img">
-              <div class="feedback__gradient"></div>
-              <figcaption class="feedback__figcaption">Оксана Григорьева</figcaption>
-            </figure>
-            <p class="feedback__text">
-              Были в комнате Дикий Запад, пели в караоке под Шакиру, отличный получился корпоратив! 
-              У нас в городе больше нет подобных заведений
-            </p>
-          </div>
-          <div class="feedback__container">
-            <figure class="feedback__figure">
-              <img src="./img/feedback/Nikita-Yashchenko.png" alt="Никита Ященко" class="feedback__img">
-              <div class="feedback__gradient"></div>
-              <figcaption class="feedback__figcaption">Никита Ященко</figcaption>
-            </figure>
-            <p class="feedback__text">
-              Немного подвисала игра в VR очках, а так все норм. Крутое оформление
-              комнаты в стиле звездных войн, попал в атмосферу космоса
-            </p>
+          <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="feedback__container">
+                  <figure class="feedback__figure">              
+                    <img src="./img/feedback/Max-Samoilov.png" alt="Макс Самойлов" class="feedback__img">
+                    <div class="feedback__gradient"></div>
+                    <figcaption class="feedback__figcaption">Макс Самойлов</figcaption>
+                  </figure>
+                  <p class="feedback__text">
+                    Отмечали здесь день рождения с компанией друзей, все было очень круто!
+                    VR очки это просто бомба, никогда еще я не был в таком полном игровом
+                    погружении. Сервис на высоте!
+                  </p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="feedback__container">
+                  <figure class="feedback__figure">
+                    <img src="./img/feedback/Oksana-Grigorieva.png" alt="Оксана Григорьева" class="feedback__img">
+                    <div class="feedback__gradient"></div>
+                    <figcaption class="feedback__figcaption">Оксана Григорьева</figcaption>
+                  </figure>
+                  <p class="feedback__text">
+                    Были в комнате Дикий Запад, пели в караоке под Шакиру, отличный получился корпоратив! 
+                    У нас в городе больше нет подобных заведений
+                  </p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="feedback__container">
+                  <figure class="feedback__figure">
+                    <img src="./img/feedback/Nikita-Yashchenko.png" alt="Никита Ященко" class="feedback__img">
+                    <div class="feedback__gradient"></div>
+                    <figcaption class="feedback__figcaption">Никита Ященко</figcaption>
+                  </figure>
+                  <p class="feedback__text">
+                    Немного подвисала игра в VR очках, а так все норм. Крутое оформление
+                    комнаты в стиле звездных войн, попал в атмосферу космоса
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-button-prev" id="button-nav"></div>
+            <div class="swiper-button-next" id="button-nav"></div>
           </div>
         </div>
       </section>

@@ -140,10 +140,10 @@ const controlMenu = (menu, overlayMenu, callBackBtn) => {
   const headerMenu = document.querySelector(".header__menu");
 
   headerMenu.addEventListener("click", () => {
-    if(window.innerWidth < 700) {
+    if (window.innerWidth < 700) {
       callBackBtn.classList.remove("no-visible");
       overlayMenu.classList.remove("no-visible");
-    } else if(window.innerWidth > 700) {
+    } else if (window.innerWidth > 700) {
       overlayMenu.classList.remove("no-visible");
     }
   });
@@ -187,7 +187,7 @@ const createModalWindow = () => {
   const formInputName = document.createElement("input");
   formInputName.setAttribute("type", "text");
   formInputName.setAttribute("name", "name");
-  formInputName.classList.add("form__input");
+  formInputName.classList.add("form__input", "form__input--name");
   formLabelName.append(formInputName);
 
   const formLabelPhone = document.createElement("label");
@@ -198,7 +198,7 @@ const createModalWindow = () => {
   const formInputPhone = document.createElement("input");
   formInputPhone.setAttribute("type", "text");
   formInputPhone.setAttribute("name", "phone");
-  formInputPhone.classList.add("form__input");
+  formInputPhone.classList.add("form__input", "form__input--tel");
   formLabelPhone.append(formInputPhone);
 
   const submitBtn = document.createElement("button");
@@ -253,12 +253,68 @@ const controlModalWindow = (overlay, form, callBackBtn, overlayMenu) => {
   });
 };
 
+const feedbackNav = () => {
+  new Swiper(".swiper-container", {
+    loop: true,
+
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });
+};
+
+const inputMask = () => {
+  const inputTel = document.querySelector(".form__input--tel");
+  const telMask = new Inputmask("+7 (999) 999-99-99");
+  telMask.mask(inputTel);
+  return inputTel;
+};
+
+const validateForm = (inputTel) => {
+  const validator = new JustValidate("form");
+
+  validator
+    .addField(".form__input--name", [
+      {
+        rule: "required",
+        errorMessage: "Введите имя",
+      },
+      {
+        rule: "minLength",
+        value: 2,
+        errorMessage: "Не короче 2 символов",
+      },
+      {
+        rule: "maxLength",
+        value: 30,
+        errorMessage: "Не длиннее 30 символов",
+      },
+    ])
+    .addField(".form__input--tel", [
+      {
+        rule: "required",
+        errorMessage: "Введите номер телефона",
+      },
+      {
+        validator(value) {
+          const phone = inputTel.inputmask.unmaskedvalue();
+          return phone.length === 10;
+        },
+        errorMessage: "Некорректный номер телефона",
+      },
+    ]);
+};
+
 const init = () => {
   accordion();
   const { menu, overlayMenu, callBackBtn } = createMenu();
   controlMenu(menu, overlayMenu, callBackBtn);
   const { overlay, form } = createModalWindow();
   controlModalWindow(overlay, form, callBackBtn, overlayMenu);
+  feedbackNav();
+  const inputTel = inputMask();
+  validateForm(inputTel);
 };
 
 init();
